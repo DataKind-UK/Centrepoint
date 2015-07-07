@@ -27,7 +27,7 @@ psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"ALTER TABLE gb_boundaries DROP CO
 
 # Import population for England and Wales
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"DROP TABLE IF EXISTS gb_population;"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE gb_population (lad11cd CHAR(9), population INTEGER, area REAL);"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE gb_population (lad11cd CHAR(9), population INTEGER, area NUMERIC);"
 csvfix exclude -f 1,2,4,6,7,8,9,10,12 "$(dir_resolve data/england_and_wales/ks101ew.csv)" | tail -n +2 | grep -v "^$" > data/england_and_wales/.temp.csv
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"COPY gb_population (lad11cd, population, area) FROM '$(dir_resolve data/england_and_wales/.temp.csv)' WITH CSV;"
 
@@ -81,13 +81,13 @@ psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE ni_temp_2 AS (SELECT
 #   the number of areas is the maximum possible, this takes longer than in the original script where we grouped by
 #   districts.
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"DROP TABLE IF EXISTS ni;"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE ni (lgd2014 CHAR(9), lgd2014name VARCHAR, population INTEGER, area REAL);"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE ni (lgd2014 CHAR(9), lgd2014name VARCHAR, population INTEGER, area NUMERIC);"
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"SELECT AddGeometryColumn('ni', 'geom', 4326, 'MultiPolygon', 2);"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO ni (lgd2014, lgd2014name, population, geom, area) SELECT 'N92000002' AS lgd2014, 'Northern Ireland' AS lgd2014name, sum(population) AS population, ST_Transform(ST_Multi(ST_Union(geom)), 4326) AS geom, CAST(ROUND(CAST(SUM(hectares) AS NUMERIC), 2) AS REAL) AS area FROM ni_temp_2;"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO ni (lgd2014, lgd2014name, population, geom, area) SELECT 'N92000002' AS lgd2014, 'Northern Ireland' AS lgd2014name, sum(population) AS population, ST_Transform(ST_Multi(ST_Union(geom)), 4326) AS geom, CAST(ROUND(CAST(SUM(hectares) AS NUMERIC), 2) AS NUMERIC) AS area FROM ni_temp_2;"
 
 # Finally, create the UK table including a numeric index, suitable for importing as a QGIS layer, and a spatial index
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"DROP TABLE IF EXISTS uk;"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE uk (gid SERIAL PRIMARY KEY, la_code CHAR(9), la_name VARCHAR, population INTEGER, area REAL);"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE uk (gid SERIAL PRIMARY KEY, la_code CHAR(9), la_name VARCHAR, population INTEGER, area NUMERIC);"
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"SELECT AddGeometryColumn('uk', 'geom', 4326, 'MultiPolygon', 2);"
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO uk (la_code, la_name, population, geom, area) SELECT lad11cd, lad11nm, population, geom, area FROM gb;"
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO uk (la_code, la_name, population, geom, area) SELECT lgd2014, lgd2014name, population, geom, area FROM ni;"
@@ -98,6 +98,8 @@ psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"DROP TABLE IF EXISTS gb_boundarie
 find data -name ".temp.*" -type f -delete
 
 # dump everything to CSV and GeoJSON files
+# Note that:
+# - the use of _to_char_ is required to avoid PostgreSQL using the scientific format for bigger numbers
 rm -rf uk_centrepoint.json uk_centrepoint.csv
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"COPY (select la_code, la_name, to_char(population, '9999999') AS population, to_char(area, '999999999D99') AS area FROM uk) TO '$(dir_resolve uk_centrepoint.csv)' WITH CSV HEADER;"
 ogr2ogr -f GeoJSON uk_centrepoint.json "PG:host=localhost dbname=$DATABASE_NAME" -sql "select * from uk;"
