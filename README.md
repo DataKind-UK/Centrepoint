@@ -27,5 +27,5 @@ The choice of subdivision is mainly driven by how the charity plans for its work
 Note how the real geography is actually more complicated than this! E.g. in England many districts are grouped in _councils_ and some of the data is available at council level. Thanks to the reference geography you won't need to deal with that for the basics.
 
 ###Where do I find it?
-- the _uk\_centrepoint\_[some date].csv_ file includes all data but the geospatial data needed for mapping
-- the _uk\_centrepoint\_[some date].json_ file includes the geospatial data but not the homelessness statistics
+- the _uk\_centrepoint\_\[some date\].csv_ file includes all data but the geospatial data needed for mapping
+- the _uk\_centrepoint\_\[some date\].json_ file includes the geospatial data but not the homelessness statistics
