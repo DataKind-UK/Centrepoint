@@ -1,0 +1,111 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13140\viewh13260\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 \ul \ulc0 REDISTRIBUTION / COMPILATION\
+\
+
+\b0 \ulnone 2 main tasks: \
+1. for both ChildSoc and LA_FOI,
+\b  redistribute the data from County to District
+\b0  according to the population proportion of the latter to the former. This can only be done when the county has returned data of course, so 10 or so counties. \
+2. Compare numbers for 
+\b ChildSoc and LA_FOI,
+\b0  and take highest. \
+\
+I did this for the main number, the first \'91presented\'92 value. \
+This means that the other numbers (\'91were subsequently assessed\'92 onwards) might not quite match the \'91presented\'92 value now. See for instance Cumbria, with a much larger 16-17 presented number now, but still smaller other values. \
+\
+NOTES:\
+- this 
+\b only happens with 16-17
+\b0  data so we end up with very different ratios of 16-17 to 18-24; in other words for one district only the 16-17 numbers can get boosted. The 18-24 ones will remain the same. \
+- we only have 
+\b up to 2013 in ChildSoc
+\b0  data, so the latest year, 2014, remains unchanged after this (unless we are getting county data redistributed.)\ul  \
+If we only want to use 2014 data on the dive, this whole comparison business might be useless
+\b \ulnone  BUT 
+\b0 we could take the 2013 numbers and push them to 2014 as well. \
+
+\i E.g. Cumbria, Carlisle: numbers increased from 11 to 46 in 2012 and 3 to 50 in 2013 because of the ChildSoc comparison. Carlisle has 2 for 16-17 presented in 2014: we could boost this number to 50 as well, assuming a similar patter to the previous year. 
+\i0 \ul \
+\ulnone \
+
+\b \ul \
+\
+\
+\
+ChildSoc_redistribution
+\b0  file\ulnone \
+\
+- 
+\b Reference_sheet:
+\b0  clone of the original data reference sheet, with ONS codes.\
+\
+- 
+\b Presented_CS
+\b0 : presented query form child society, with green columns = redistributed from county level\
+\
+- 
+\b PRESENTED_REDISTRIBUTED: 
+\b0 Clean version of the previous sheet, with only the numbers redistributed from the county level \
+\
+- 
+\b Eligible CS:
+\b0  I did not work on this. Eligibility data from the Child Soc (it came as second query as opposed to the main LA FOIs that return eligibility and presented as part of the same query)\
+\
+- 
+\b Redistribution:
+\b0  this is where all the county-to-district redis is happening. \
+
+\i \'91False\'92 value in Derbyshire not a big deal - the Census data I was using at the county level does not add up to the one Gianfranco provided. We can use whichever we want on the Dive, the population numbers in this sheet were only to calculate proportion of district to county so essentially the same no matter what dataset is used. \
+
+\i0 \
+- 
+\b District to County sheet
+\b0 : mapping the districts to their county.\
+\
+
+\i\b NOTES:\
+- the children society covers years 2010 to 2013 so NOT 2014 like the Local Authorities\'92 FIO do. This means that if we only use the latest year, using the Child Soc data will be useless.
+\i0\b0 \
+\
+\
+
+\b \ul District_FOI_MAIN_REF
+\b0  file\
+\
+
+\b \ulnone - Query 1:
+\b0  from the original district FOI compiled file. \
+\ul Only the first number (presented) is redistributed from county data AND compared with Child Soc FOI. \
+\ulnone \
+Blue cols A and B are county data, Green cols C to E are district. E is the district\'92s proportion of the county population, used for redistributing the county-level data. \
+The Yellow cells are where I did redistribute some county data. \
+Most county data was 16-17 so I did not sue those values to estimate 18-24, as we have a 1-to-9 ratio here. \
+I did however get both 16-17 and 18-24 numbers when the county provided 16-24, by splitting the latter on 10% and 90% respectively. \
+\
+J = presented number form the county FOI\
+K = redistributed values from J at the district level\
+L = Child Soc data, from previous file (so already taking into account both district and county ChildSoc data)\
+
+\b M = final result: highest of L and N
+\b0 \
+N = original district number for presented\
+\
+
+\b - Query 2:
+\b0  I did not work on that. Not sure we want those numbers. \
+\
+
+\b - COUNTY_PRES:
+\b0  presented number from the county FOI. this only has the first value form the county presented numbers. The rest of the FOI return is in \ul County Data Combined\ulnone  (
+\i watch out for the very weird formatting on there - many merged cells in headers so if you need to vlookup to it I suggest copying/pasting into a proper 1 field per column format.
+\i0 )\
+\
+
+\b - Sheet 2:
+\b0  pivot, I had high hopes for that but can\'92t see how to use it with lookups. Ignore. \
+}
