@@ -1,4 +1,5 @@
 require(dplyr)
+require(gdata)
 
 lookup <- read.csv("CTRY14_RGN14_CTY14_LAD14_WD14_UK_LU.csv", stringsAsFactors = F)
 lookup_2011 <- read.csv("WD11_CMWD11_LAD11_EW_LU.csv", stringsAsFactors = F)
@@ -6,41 +7,32 @@ reference_geography <- read.csv("../uk_centrepoint_1507080040.csv", stringsAsFac
 
 # Read the original data. This was taken from an email from Jesse to the ambassadors team on 
 # 17 June 2015, labelled as "Children’s Society data for 2011, 16-17 year olds". 
-chisoc <- read.csv("children_society_16_17_no.csv", stringsAsFactors = F, na.strings = c("", "\\"))
-names(chisoc)[1] <- "type"
-names(chisoc)[2] <- "name"
+chisoc <- read.xls("source-data/The Children's Society 16-17.xlsx", sheet = 1, stringsAsFactors = F, na.strings = c("", "\\"))
+names(chisoc)[1] <- "name"
 
 # Drop the rows without an area name, the columns without a header, and the ones whose name starts 
 # by 'Total', as the information is redundant
 chisoc <- chisoc[!is.na(chisoc$name), !grepl("^Total", names(chisoc)) & !grepl("^X.", names(chisoc))]
-columns_with_statistics <- names(chisoc)[!(names(chisoc) %in% c('type', 'name'))]
+columns_with_statistics <- names(chisoc)[!(names(chisoc) %in% c('name'))]
 
 # Force everything to _numeric_ after replacing the '<something' values with the smallest integers 
 # not less than the specified
-temp <- sapply(names(chisoc)[!(names(chisoc) %in% c("name", "type"))], function (columnName) { 
+temp <- sapply(columns_with_statistics, function (columnName) { 
     matches <- grepl("^<(\\d+)", chisoc[, columnName])
     chisoc[, columnName] <<- as.numeric(sub("^<(\\d+)", "\\1", chisoc[, columnName], fixed = F))
     chisoc[matches, columnName] <<- ceiling(chisoc[matches, columnName] / 2)
 })
 
 # Fix errors in the original data
-# - empty rows for which a type is defined
-chisoc <- chisoc[chisoc$name != "", ]
 # - mistypes in the names of the regions
 chisoc$name <- ifelse(chisoc$name == "North West Leicerstershire", "North West Leicestershire", chisoc$name)
 chisoc$name <- ifelse(chisoc$name == "Vale of the White Horse", "Vale of White Horse", chisoc$name)
 chisoc$name <- ifelse(chisoc$name == "Epsom and Erwell", "Epsom and Ewell", chisoc$name)
-# - West Sussex listed as a district rather than a county
-chisoc$type <- ifelse(chisoc$name == "West Sussex CC", "County", chisoc$type)
 
 # split the table in districts and counties
-local_authorities <- chisoc[chisoc$type %in% c("Unitary", "District"), ]
-counties <- chisoc[chisoc$type == "County", ]
+local_authorities <- chisoc[!grepl(" CC$", chisoc$name), ]
+counties <- chisoc[grepl(" CC$", chisoc$name), ]
 rm(chisoc)
-
-# drop the type columns
-counties <- counties[, 2:ncol(counties)]
-local_authorities <- local_authorities[, 2:ncol(local_authorities)]
 
 ### DISTRICTS
 
