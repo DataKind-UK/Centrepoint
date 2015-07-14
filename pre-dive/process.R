@@ -4,7 +4,9 @@ lookup <- read.csv("CTRY14_RGN14_CTY14_LAD14_WD14_UK_LU.csv", stringsAsFactors =
 lookup_2011 <- read.csv("WD11_CMWD11_LAD11_EW_LU.csv", stringsAsFactors = F)
 reference_geography <- read.csv("../uk_centrepoint_1507080040.csv", stringsAsFactors = F)
 
-chisoc <- read.csv("children_society_16_17_no.csv", stringsAsFactors = F)
+# Read the original data. This was taken from an email from Jesse to the ambassadors team on 
+# 17 June 2015, labelled as "Children’s Society data for 2011, 16-17 year olds". 
+chisoc <- read.csv("children_society_16_17_no.csv", stringsAsFactors = F, na.strings = c("", "\\"))
 names(chisoc)[1] <- "type"
 names(chisoc)[2] <- "name"
 
