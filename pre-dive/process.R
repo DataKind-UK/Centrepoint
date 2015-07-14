@@ -51,8 +51,11 @@ temp <- lookup_2011[, c("LAD11NM", "LAD11CD")]
 temp <- temp[!duplicated(temp), ]
 counties <- left_join(counties, temp, by = c("LAD14NM" = "LAD11NM"))
 
-
 # integrate with the population from the reference geography
 counties <- left_join(counties, reference_geography[, c("la_code", "population")], by = c("LAD11CD" = "la_code"))
+population_by_county <- counties %>% group_by(CTY14CD) %>% summarise(county_population = sum(population)) 
 
-
+# calculate what part of the county the district is a as a fraction of population
+counties <- left_join(counties, population_by_county, by = c("CTY14CD" = "CTY14CD"))
+counties$perc_of_population <- counties$population / counties$county_population
+counties <- counties[, !names(counties) %in% c("population", "county_population")]
