@@ -1,8 +1,8 @@
 require(dplyr)
 require(gdata)
 
-lookup <- read.csv("CTRY14_RGN14_CTY14_LAD14_WD14_UK_LU.csv", stringsAsFactors = F)
-lookup_2011 <- read.csv("WD11_CMWD11_LAD11_EW_LU.csv", stringsAsFactors = F)
+lookup <- read.csv("reference-data/CTRY14_RGN14_CTY14_LAD14_WD14_UK_LU.csv", stringsAsFactors = F)
+lookup_2011 <- read.csv("reference-data/WD11_CMWD11_LAD11_EW_LU.csv", stringsAsFactors = F)
 reference_geography <- read.csv("../uk_centrepoint_1507080040.csv", stringsAsFactors = F)
 
 # Read the original data. This was taken from an email from Jesse to the ambassadors team on 
