@@ -14,6 +14,14 @@ names(chisoc)[2] <- "name"
 # redundant
 chisoc <- chisoc[, !grepl("^Total", names(chisoc)) & !grepl("^X.", names(chisoc))]
 
+# Force everything to _numeric_ after replacing the '<something' values with the smallest integers 
+# not less than the specified
+temp <- sapply(names(chisoc)[!(names(chisoc) %in% c("name", "type"))], function (columnName) { 
+    matches <- grepl("^<(\\d+)", chisoc[, columnName])
+    chisoc[, columnName] <<- as.integer(sub("^<(\\d+)", "\\1", chisoc[, columnName], fixed = F))
+    chisoc[matches, columnName] <<- ceiling(chisoc[matches, columnName] / 2)
+})
+
 # Fix errors in the original data
 # - empty rows for which a type is defined
 chisoc <- chisoc[chisoc$name != "", ]
