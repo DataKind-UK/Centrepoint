@@ -2,7 +2,7 @@ Merging data
 ============
 
 ##Introduction
-This short document is intended to be a simple tutorial on how to merge data from different sources against the reference geography. It is important that you read about the reference geography first [here](../../README.md#reference-geography).
+This short document is intended to be a simple tutorial on how to merge data from different sources against the reference geography. It is important that you read about the reference geography first [here](https://hackpad.com/DataKind-UK-July-DataDive-2015-rrhiXtLhj1W).
 
 ##Sources
 There are many sources for UK [open](http://opendefinition.org/) data relevant to your investigation. As a data scientist, finding what is most suitable to your research and preparing the data for integration across etherogeneous sources is part of the challenge itself.
@@ -21,7 +21,7 @@ My personal favourite sources of Census 2011 data are:
 We will use [R](http://www.r-project.org/) and the _dplyr_ and _data.table_ packages  for the examples below. You will probably be able to run the same exercise comfortably in MS Excel if you prefer to.
 
 ##Finally, the instructions!
-Launch R and read the data into a data table _dt_:
+Launch R and read the data file provided into a data table _dt_:
 
 ```
 > require(data.table)
@@ -60,7 +60,7 @@ Then, we select "England and Wales" as the scope:
 
 ![](images/nomis_05.png)
 
-... and click on "Download". We'll download a _bulk.csv_ file, we load that in R, too and check what data is available. Note that the _geography.code_ column corresponds to _la\_code_ in our reference geography.
+... and click on "Download". We'll download a _bulk.csv_ file, we load that in R and check what data is available. Note that the _geography.code_ column should correspond to _la\_code_ in our reference geography.
 
 ```
 > census <- data.table(read.csv("~/Downloads/bulk.csv", stringsAsFactors = FALSE))

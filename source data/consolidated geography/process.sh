@@ -85,11 +85,25 @@ psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE ni (lgd2014 CHAR(9),
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"SELECT AddGeometryColumn('ni', 'geom', 4326, 'MultiPolygon', 2);"
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO ni (lgd2014, lgd2014name, population, geom, area) SELECT 'N92000002' AS lgd2014, 'Northern Ireland' AS lgd2014name, sum(population) AS population, ST_Transform(ST_Multi(ST_SimplifyPreserveTopology(ST_Union(geom), 0.5)), 4326) AS geom, CAST(ROUND(CAST(SUM(hectares) AS NUMERIC), 2) AS NUMERIC) AS area FROM ni_temp_2;"
 
-# Create a lookup table with the latest codes, as some may have changed
+# Force manually renaming the local authorities' names vs the same in ONS' latest geography. I need the name to match
+# to identify changes in the LA codes. See also the note below.
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Argyll and Bute' WHERE lad11nm = 'Argyll & Bute';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Perth and Kinross' WHERE lad11nm = 'Perth & Kinross';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Vale of Glamorgan' WHERE lad11nm = 'The Vale of Glamorgan';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Dumfries and Galloway' WHERE lad11nm = 'Dumfries & Galloway';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'City of Edinburgh' WHERE lad11nm = 'Edinburgh, City of';"
+
+# Create a lookup table with the latest codes, as some may have changed since the Census
+# TODO: there may be a smarter way to do this, that is using this dataset:
+#       https://geoportal.statistics.gov.uk/geoportal/catalog/search/resource/details.page?uuid=%7BD1536A94-F507-4019-B30B-0C6BC73BEF64%7D
+#       That would also forcing the LA name spelling consistency superfluous.
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"DROP TABLE IF EXISTS uk_2014_lookup;"
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE TABLE uk_2014_lookup (lad14cd CHAR(9), lad14nm VARCHAR);"
 csvfix exclude -f 1,2,5,6,7,8,9,10 "$(dir_resolve data/uk/CTRY14_RGN14_CTY14_LAD14_WD14_UK_LU.csv)" | tail -n +2 | grep -v "^$" | sort | uniq > data/uk/.temp.csv
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"COPY uk_2014_lookup (lad14cd, lad14nm) FROM '$(dir_resolve data/uk/.temp.csv)' WITH CSV;"
+
+# Force add the 'artificial' Northern Ireland code
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO uk_2014_lookup (lad14cd, lad14nm) VALUES ('N92000002', 'Northern Ireland');"
 
 # Finally, create the UK table including a numeric index, suitable for importing as a QGIS layer, and a spatial index
 psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"DROP TABLE IF EXISTS uk;"
