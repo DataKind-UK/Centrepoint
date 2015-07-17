@@ -1,0 +1,6 @@
+Northern Ireland
+================
+- The Northern Ireland Statistics & Research Agency website publishes the 2011 Census population data aggregated by local government district at http://www.nisra.gov.uk/census/2011/results/population.html (the "Population and Household Estimates by Local Government District for Northern Ireland Report" PDF), but I could not find the districts' shapefiles anywhere, to the best of my knowledge. What to do about it?
+- I could find shapefiles for the 2011 Census 4,537 small areas (SAs) instead at http://www.nisra.gov.uk/geography/SmallAreas.htm , _and_ there are best-fit lookup tables from most NI geographies - including the SAs - to the districts at http://www.nisra.gov.uk/geography/SOA.htm . Because of that, I decided to "re-build" the districts by aggregating their SAs. Because the SAs are... well, small, I expect the error caused by what NISRA calls _best-fit_ to be acceptable.
+- Download and unzip the shapefiles to the _SA2011_Esri_Shapefile_ folder. Download the lookup tables MS Excel to _11DC_Lookup.xls_.
+- Find the Northern Ireland 2011 Census population data by small area (SA) at http://www.nisra.gov.uk/demography/default.asp125.htm and save as the _SAPE_SA_01_12.xls_ file.
