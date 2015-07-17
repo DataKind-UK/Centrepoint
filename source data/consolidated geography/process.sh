@@ -87,11 +87,11 @@ psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"INSERT INTO ni (lgd2014, lgd2014n
 
 # Force manually renaming the local authorities' names vs the same in ONS' latest geography. I need the name to match
 # to identify changes in the LA codes. See also the note below.
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET la_name = 'Argyll and Bute' WHERE la_name = 'Argyll & Bute';"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET la_name = 'Perth and Kinross' WHERE la_name = 'Perth & Kinross';"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET la_name = 'Vale of Glamorgan' WHERE la_name = 'The Vale of Glamorgan';"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET la_name = 'Dumfries and Galloway' WHERE la_name = 'Dumfries & Galloway';"
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET la_name = 'City of Edinburgh' WHERE la_name = 'Edinburgh, City of';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Argyll and Bute' WHERE lad11nm = 'Argyll & Bute';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Perth and Kinross' WHERE lad11nm = 'Perth & Kinross';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Vale of Glamorgan' WHERE lad11nm = 'The Vale of Glamorgan';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'Dumfries and Galloway' WHERE lad11nm = 'Dumfries & Galloway';"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"UPDATE gb SET lad11nm = 'City of Edinburgh' WHERE lad11nm = 'Edinburgh, City of';"
 
 # Create a lookup table with the latest codes, as some may have changed since the Census
 # TODO: there may be a smarter way to do this, that is using this dataset:
