@@ -2,7 +2,7 @@ Merging data
 ============
 
 ##Introduction
-This short document is intended to be a simple tutorial on how to merge data from different sources against the reference geography. It is important that you read about the reference geography first [here](../../README.md#reference-geography).
+This short document is intended to be a simple tutorial on how to merge data from different sources against the reference geography. It is important that you read about the reference geography first [here](https://hackpad.com/DataKind-UK-July-DataDive-2015-rrhiXtLhj1W).
 
 ##Sources
 There are many sources for UK [open](http://opendefinition.org/) data relevant to your investigation. As a data scientist, finding what is most suitable to your research and preparing the data for integration across etherogeneous sources is part of the challenge itself.
