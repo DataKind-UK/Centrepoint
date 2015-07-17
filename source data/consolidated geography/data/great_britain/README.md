@@ -1,0 +1,4 @@
+Great Britain
+=============
+- In case you did not know, Great Britain is made of England, Scotland and Wales :-) (I've learned that for my [naturalisation test](https://www.gov.uk/life-in-the-uk-test/book-life-in-uk-test) last year)
+- Find the 2011 local authority boundaries from the Office for National Statistics' website at https://geoportal.statistics.gov.uk/geoportal/catalog/search/resource/details.page?uuid=%7B405635C9-8AE8-4508-AD66-892BB0691DDA%7D . Note that I use the "generalised and clipped" version because the detail of the [full version](https://geoportal.statistics.gov.uk/geoportal/catalog/search/resource/details.page?uuid=%7B88D90EC4-C8E0-4432-AD5B-33DE6F5C215B%7D) would make the "end product" very heavy and difficult to manage (e.g. a GeoJSON file would be ~170 Mb bigger). Download and unzip and you should have a _Local\_authority\_district\_(GB)\_2011\_Boundaries\_(Generalised\_Clipped)_ folder. 
