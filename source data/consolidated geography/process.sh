@@ -121,5 +121,5 @@ psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"CREATE INDEX uk_idx_geom ON uk US
 # Note that:
 # - the use of _to_char_ is required to avoid PostgreSQL using the scientific format for bigger numbers
 rm -rf uk_centrepoint.json uk_centrepoint.csv
-psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"COPY (select la_code, la_name, to_char(population, '9999999') AS population, to_char(area, '999999999D99') AS area, lad14cd FROM uk) TO '$(dir_resolve uk_centrepoint.csv)' WITH (FORMAT CSV, HEADER, FORCE_QUOTE *);"
+psql --set ON_ERROR_STOP=1 -d$DATABASE_NAME -c"COPY (select la_code, la_name, to_char(population, '9999999') AS population, to_char(area, '999999999D99') AS area, lad14cd FROM uk) TO '$(dir_resolve uk_centrepoint.csv)' WITH (FORMAT CSV, HEADER, FORCE_QUOTE (la_name));"
 ogr2ogr -f GeoJSON uk_centrepoint.json -lco COORDINATE_PRECISION=3 "PG:host=localhost dbname=$DATABASE_NAME" -sql "select * from uk;"
