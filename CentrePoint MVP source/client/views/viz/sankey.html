@@ -1,0 +1,47 @@
+<template name="sankey">
+    <div class="container">
+        {{> sankeyselector}}
+        <div class="row" id="sankey-frame">
+        	<p id="sankey-chart"></p>
+        </div>
+    </div>
+</template>
+
+<template name="sankeyselector">
+    <div class="btn-group" id="sankey-selector">
+        <div class="dropdown">
+          <button type="button" id="dropdownLocalAuth" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Local Authority<span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownLocalAuth">
+            {{#each localauths}}
+            	<li><a role="menuitem" href="#" class="data-select-la">{{this}}</a></li>
+            {{/each}}
+          </ul>
+        </div> 
+        <div class="dropdown">
+          <button type="button" id="dropdownYear" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Year<span class="caret"></span>
+          </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownYear">
+               <li><a class="data-select-year" role="menuitem" href="#">2012</a></li>
+               <li><a class="data-select-year" role="menuitem" href="#">2013</a></li>
+               <li><a class="data-select-year" role="menuitem" href="#">2014</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+          <button type="button" id="dropdownAge" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Age Range<span class="caret"></span>
+          </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownAge">
+               <li><a class="data-select-age" role="menuitem" href="#">16-17</a></li>
+               <li><a class="data-select-age" role="menuitem" href="#">All other 18-24</a></li>
+            </ul>
+        </div>
+      </div>
+<!--         <div class="input-group">
+            <label>Start Date</label>
+            <input type="date" name="startdate" class="form-control-sm">
+            <label>End Date</label>
+            <input type="date" name="enddate" class="form-control-sm">
+
+        </div> -->
+</template>

@@ -1,0 +1,93 @@
+{
+
+	/*Config*/
+	"configName": "Youth Homelessness Databank",
+	"configTitle": "Youth Homelessness Databank",
+	"configSubtitle": "Transforming Youth Homelessness Data into \nYouth Homelessness Knowledge",
+	
+	/*Home*/
+	"gotoviz": "To learn more about youth homelessness in the UK click anywhere on the map above",
+	"getstarted": "Get Started",
+	"dashboard": "Go to dashboard",
+	"learn": "Learn more",
+	"intro": "Help Us End Youth Homelessness",
+	"how": "Centrepoint is creating the UK's first Youth Homelessness Databank - an open data resource for the UK.
+      Currently, no one is collating, aggregating, tracking or evaluating how charities work with young people experiencing homelessness.
+      This means it is hard to know how many young people experience homelessness in a year, whether projects and interventions help them and whether the youth homelessness sector is supporting young people into skills, jobs and homes.
+      We want to change this.",
+	"step_1": "Step 1",
+	"step_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"step_2": "Step 2",
+	"step_2_text": "Oratio me istius philosophi non offendit; Qua tu etiam inprudens utebare non numquam.",
+	"step_3": "Step 3",
+	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
+	"section_ipad_header": "Creating a revolution in Homelessness Data",
+	"section_ipad_text": "Do really cool stuff really quickly",
+	"section_ipad_btn": "Made by Dataist",
+	"final_text": "Spread the Word.",
+	"final_cta": "Take a look",
+
+	/*Shared*/
+
+	"favorite": "Favorite",
+
+	 /*Navbar*/
+	"admin": "Admin",
+	"centrepoint": "Centrepoint",
+	"viz":"Visualisation",
+	"reports":"Reports",
+	"profile": "Profile",
+	"account": "Account",
+	"signout": "Sign out",
+	"signup": "Sign up",
+	"login": "Log in",
+	"login2": "Login",
+	"edit_profile": "Edit Profile",
+
+	/*Not Found*/
+	"not_found": "Nothing here.",
+
+
+	/*Dashboard*/
+	"new_viz": "Create a Visualisation",
+	"new_viz_btn": "New Visualisation",
+	"new_viz_modal": "Add with a modal",
+	"new_viz_modal_btn": "Add a new viz",
+	"edit_viz": "Edit dataset",
+	"add_dataset": "Add a Dataset",
+	"add_dataset_btn": "Add Dataset",
+	"add_dataset_modal": "Add with a modal",
+	"add_dataset_modal_btn": "Add a new dataset",
+	"edit_dataset": "Edit dataset",
+	"add_post": "Add a Post",
+	"add_post_btn": "Add Post",
+	"add_post_modal": "Add with a modal",
+	"add_post_modal_btn": "Add a new post",
+	"edit_post": "Edit post",
+	"delete": "Delete",
+	"favorites": "Favorites",
+
+	/*Account*/
+	"account_details": "Account Details",
+	"delete_account": "Delete Account",
+	"delete_account_warn": "There's no coming back from this one",
+	"delete_account_warn2": "Are you sure you want to delete your account?",
+	"close": "Close",
+	"change_pswd": "Change Password",
+
+	/*Profile*/
+	"update": "Update",
+
+	/*Posts*/
+
+	"postTitle": "Title",
+	"postContent": "Content",
+	"postPicture": "Picture",
+	// "uploadLabel": "Choose File"
+	"profilePicture": "Profile Picture"
+
+
+	
+
+
+}

@@ -1,0 +1,74 @@
+<template name="bubble">
+    <div class="container">
+        <div class="row" id="bubble-frame">
+        	<div class="col-md-6">
+        	 <div id="vis"></div>
+          </div>
+          <div class="col-md-2">
+            {{> bubbleselector}}
+          </div>
+        </div>
+    </div>
+</template>
+
+<template name="bubbleselector">
+    <div class="bubble-selector">
+        <div class="btn-group-vertical">
+          <label><b>Where?</b></label> 
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Regions</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Local Authorities</label>
+          </div>
+<!--             <button type="button" id="bubbleDisplaySwitch">Display by Size</button> -->
+            <div class="dropdown">
+              <label>Highlight region or local authority (if available)</label>
+              <button type="button" id="dropdownLocalAuth" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                Local Authorities <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownLocalAuth">
+                {{#each localauths}}
+                  <li><a role="menuitem" href="#" class="data-select-la">{{this}}</a></li>
+                {{/each}}
+              </ul>
+            </div>
+            <div class='slider-spacing'></div>
+            <label>When?</label>
+            <div class='slider-spacing'></div>
+            <div id="slider-date"></div>
+            <div>Select Year or Quarter</div>
+            <div class='slider-spacing'></div>
+            <label>Key</label>
+            <ul>
+              <li class='bubble-key-li' id="scotland-key">Scotland</li>
+              <li class='bubble-key-li' id="n_ireland-key">N. Ireland</li>
+              <li class='bubble-key-li' id="wales-key">Wales</li>
+              <li class='bubble-key-li' id="england-key">England</li>
+            </ul>
+            <!-- <div class="dropdown">
+              <label>Data Type</label>
+              <button type="button" id="dropdownBubbleDataType" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                CORE Housing <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownBubbleDataType">
+                <li><a href="#">CORE Housing Data</a></li>
+                <li><a href="#">Youth Housing Data</a></li>
+                <li><a href="#">Local Authority FOI</a></li>
+              </ul>
+            </div>  
+            <div class="dropdown">
+              <label>Age Range</label>
+              <button type="button" id="dropdownBubbleAgeRange" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                16-24  <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownBubbleAgeRange">
+                <li><a class="data-select-age" role="menuitem" href="#">16-24</a></li>
+                <li><a class="data-select-age" role="menuitem" href="#">16-17</a></li>
+                <li><a class="data-select-age" role="menuitem" href="#">18-20</a></li>
+              </ul>
+            </div> -->
+
+        </div>
+    </div>
+</template>

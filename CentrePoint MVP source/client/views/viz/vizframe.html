@@ -1,0 +1,15 @@
+<template name="viz">
+    {{> navbar}}
+    <div class="layout viz-layout">
+        <div class="container" >
+       	    <a class="btn btn-info viz-nav-btn btn-large" href="/viz/bubble">Official Data</a>  
+       	    <a class="btn btn-info btn-large viz-nav-btn" href="/viz/map">More Detailed Data</a>  
+       	    <a class="btn btn-info btn-large viz-nav-btn" href="/centrepoint">CP Insights</a>
+       	    <a class="btn btn-info btn-large viz-nav-btn" href="/fullpicture">Is this the full picture?</a>
+          <hr>
+	        <div class="row" id="viz-frame"> 
+	           	{{> yield}}
+	        </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,49 @@
+html, body
+{
+  height:100%;
+}
+
+.brand-primary{
+  background-color : @brand-primary;
+  color: white;
+}
+
+.layout {
+  min-height: 80%;
+}
+
+.navbar {
+   margin-left: 0;
+ }
+
+#iron-router-progress {
+    background-color : darken(@brand-primary,20%);
+    box-shadow       : 0 0 5px darken(@brand-primary,20%);
+}
+
+#iron-router-progress.spinner:before {
+    border-color : darken(@brand-primary,20%);
+}
+
+.top-buffer { margin-top:50px; }
+
+.no-link-style {
+	color: inherit;
+	text-decoration: none;
+}
+
+.no-link-style:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.no-link-style:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+.downlink {
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-iteration-count: 2;
+}
