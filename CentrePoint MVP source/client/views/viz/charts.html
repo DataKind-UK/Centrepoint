@@ -1,0 +1,84 @@
+<template name="charts">
+    
+    <div class="container">
+        <div class="row" id="charts-frame">
+            <div class="notice">
+                {{> mapNav}}
+                All Charts
+            </div>
+            {{> barchart}}
+            <button type="button" class="pdf-save">Save As PDF</button>
+        </div>
+    </div>
+</template>
+
+<template name="barchart">
+    <div class="container">
+        <div class="row" id="chart-frame">
+            <div class="notice">
+                Bar Chart Test
+            </div>
+            <div class="col-md-8">
+              <div id="bar-chart" class="bar-chart"></div>
+            </div>
+            <div class="col-md-2">
+              {{> chartselector}}
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="chartselector">
+    <div class="chart-selector">
+        <div class="btn-group-vertical">
+            <label><b>Where?</b></label> 
+            <div class="dropdown">
+              <label>Search by region or local authority (if available)</label>
+              <button type="button" id="dropdownLocalAuth" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                Local Authorities <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownLocalAuth">
+                {{#each localauths}}
+                  <li><a role="menuitem" href="#" class="data-select-la">{{this}}</a></li>
+                {{/each}}
+              </ul>
+              <label>When?</label>
+              <label>Select Year</label>
+            </div>
+
+            <!-- <button type="button" id="bubbleDisplaySwitch">Display by Size</button>
+            <div class="dropdown">
+              <label>Data Type</label>
+              <button type="button" id="dropdownChartDataType" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                CORE Housing <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownChartDataType">
+                <li><a href="#">CORE Housing Data</a></li>
+                <li><a href="#">Youth Housing Data</a></li>
+                <li><a href="#">Local Authority FOI</a></li>
+              </ul>
+            </div>  
+            <div class="dropdown">
+              <label>Age Range</label>
+              <button type="button" id="dropdownChartAgeRange" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                16-24  <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownChartAgeRange">
+                <li><a class="data-select-age" role="menuitem" href="#">16-24</a></li>
+                <li><a class="data-select-age" role="menuitem" href="#">16-17</a></li>
+                <li><a class="data-select-age" role="menuitem" href="#">18-20</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button type="button" id="dropdownLocalAuth" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                Local Authority<span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownLocalAuth">
+                {{#each localauths}}
+                  <li><a role="menuitem" href="#" class="data-select-la">{{this}}</a></li>
+                {{/each}}
+              </ul>
+            </div>  -->
+        </div>
+    </div>
+</template>

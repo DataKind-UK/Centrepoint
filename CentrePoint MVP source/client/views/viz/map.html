@@ -1,0 +1,66 @@
+<template name="map">
+    <div class="map-nav">
+        <div class="row" id="map-frame">
+            <div class="notice">
+                {{> mapNav}}
+                Local Authourity Social Housing Data
+            </div>
+            <div id="map" class="map"></div>
+            <button type="button" class="pdf-save">Save As PDF</button>
+        </div>
+    </div>
+</template>
+
+<template name="mapselector">
+    <div class="map-selector">
+        <div class="btn-group-vertical">
+          <label>Field to Display</label> 
+          <div class="dropdown">
+            <button type="button" id="dropdownMenuFieldName" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+              16-24 Q3 2013 <span class="caret"></span>
+            </button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuFieldName">
+                 <li><a class="data-select" role="menuitem" tabindex="-1" href="#">16-24 Q3 2013</a></li>
+                 <li><a class="data-select" role="menuitem" tabindex="-1" href="#">16-17 Q3 2013</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">18-20 Q3 2013</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">16-24 Q4 2013</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">16-17 Q4 2013</a></li> 
+                 <li><a class="data-select" role="menuitem" href="#">18-20 Q4 2013</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">16-24 Q1 2014</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">16-17 Q1 2014</a></li> 
+                 <li><a class="data-select" role="menuitem" href="#">18-20 Q1 2014</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">16-24 Q2 2014</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">16-17 Q2 2014</a></li>
+                 <li><a class="data-select" role="menuitem" href="#">18-20 Q2 2014</a></li>
+              </ul>
+          </div>
+          <label> What do you want to see? </label>(select one - for more detail go to the more detailed data tab)
+          <div class="checkbox">
+            <label><input type="checkbox" value="">No. young people asking for help at local authority
+            </label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">No. young people receiving some support (definition)
+            </label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">No. young people housed by social sector
+            </label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">No. young people officially homeless and housed by state
+            </label>
+          </div>
+
+
+      </div>
+<!--         <div class="input-group">
+            <label>Start Date</label>
+            <input type="date" name="startdate" class="form-control-sm">
+            <label>End Date</label>
+            <input type="date" name="enddate" class="form-control-sm">
+
+        </div> -->
+    </div>
+</template>

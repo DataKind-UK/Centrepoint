@@ -1,0 +1,75 @@
+#login-buttons .login-button,
+.accounts-dialog .login-button {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding: 4px 8px;
+  font-size: 80%;
+  font-family:'Source Sans Pro',sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  text-transform:uppercase;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+  background-color: #8790b4;
+  /*background-image: -moz-linear-gradient(top, #a5acc9, #596595);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a5acc9), to(#596595));
+  background-image: -webkit-linear-gradient(top, #a5acc9, #596595);
+  background-image: -o-linear-gradient(top, #a5acc9, #596595);
+  background-image: linear-gradient(to bottom, #a5acc9, #596595);*/
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  border: 1px solid #1b1e2d;
+  /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);*/
+  box-shadow:none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  font-weight: 700;
+  background-color: #696969;
+  opacity: 1;
+
+}
+
+.navbar .nav > li > a {
+  color:#ffffff;
+}
+
+
+.nav-collapse .dropdown-menu li {
+ padding: 9px 0px;
+}
+
+.nav-collapse {
+  padding-left: 20px;
+}
+
+.navbar-default .navbar-brand {
+  color: #000000;
+}
+
+.navbar .btn-navbar {
+  background: none;
+  background-color:#000000;
+  margin-right: 25px;
+}
+
+.signup-controls {
+  border-radius:10px;
+  background-color: #009ad9;
+}
+
+.footer{
+  text-align: center;
+}
+
+#diagrams-img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
