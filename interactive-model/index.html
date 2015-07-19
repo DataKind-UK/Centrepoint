@@ -1,0 +1,687 @@
+<!-- Authored By Samuel Chorlton, Charlotte Lippiett and James (Contact: samchorlton@hotmail.co.uk) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Centrepoint</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles/cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="static/bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+    .node rect {
+      stroke: black;
+      stroke-width: 2px;
+      fill: #FF7700;
+    }
+
+    .edgePath path {
+      stroke: #FFBB80;
+      fill: #FFBB80;
+      stroke-width: 1.5px;
+    }
+
+    .node .label{
+      fill: white;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .dot {
+      stroke: #000;
+    }
+
+    .slice path {
+    stroke: #fff;
+    stroke-width: 1px;
+    }
+
+    .textTop {
+        font-family: 'Segoe UI';
+        font-size: 10pt;
+        fill: black;
+    }
+
+    .textBottom {
+        fill: #444;
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        font-size: 18pt;
+    }
+
+    .top {
+        border: 1px solid black;
+        color: #777;
+        font-family: 'Segoe UI';
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .top:hover {
+        border: 1px solid #555;
+        color: #333;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Centrepoint</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Data Flow in England 2011-2014</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+          <div id="tree" style="margin-left: -290px; margin-top: 20px">
+            <svg width=1300 height=800><g/></svg>            
+          </div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Development by Sam, Charlotte and James using Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+        <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog" style="margin-top: 100px">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" style="color: black">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Number of people who present themselves at local authority</h4>
+          </div>
+          <div id="stacked_bar_1" class="modal-body" style="color: black">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal fade" role="dialog" style="margin-top: 100px">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" style="color: black">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Number of people who present themselves at housing authority</h4>
+          </div>
+          <div id="bubble_chart_1" class="modal-body" style="color: black">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="myModal3" class="modal fade" role="dialog" style="margin-top: 100px">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" style="color: black">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Number of people who present themselves at children's services</h4>
+          </div>
+          <div id="bubble_chart_2" class="modal-body" style="color: black">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="myModal4" class="modal fade" role="dialog" style="margin-top: 100px">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" style="color: black">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">What does Youth Homelessness mean?</h4>
+          </div>
+          <div id="word_cloud" class="modal-body" style="color: black;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="myModal5" class="modal fade" role="dialog" style="margin-top: 100px">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" style="color: black">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Prevention and Relief Assistance By Local Authority 2014</h4>
+          </div>
+          <div id="pieChart" class="modal-body" style="color: black;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/dagre-d3-master/dist/dagre-d3.js"></script>
+    <script src="static/d3/d3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.1.6.js"></script>
+    <script src="https://jardindesconnaissances.googlecode.com/svn-history/r82/trunk/public/js/d3.layout.cloud.js"></script>
+
+    <script type="text/javascript">
+
+    drawFlowDiagram();
+
+    function drawFlowDiagram(){
+
+    // Create a new directed graph
+      var g = new dagreD3.graphlib.Graph();
+      g.setGraph({
+        nodesep: 30,
+        ranksep: 30,
+        rankdir: "LR",
+        marginx: 10,
+        marginy: 10
+      });
+
+    // States and transitions from RFC 793
+    var states = [];
+    states[0] = "Homeless Young Person*";
+    states[1] = "Seeks help for\nhomelessness";
+    states[2] = "?";
+    states[3] = "Present at local authority*";
+    states[4] = "Seeks help elsewhere";
+    states[5] = "Housed through alternate routes";
+    states[6] = "Present at children's services*";
+    states[7] = "No advice support or housing";
+    states[8] = "Present at housing authority*";
+    states[9] = "16/17 year olds assessed under the Children's Act";
+    states[10] = "Assessed under Housing Act 1996";
+    states[11] = "Prevention and relief assisstance*";
+    states[12] = "Successful Prevention";
+    states[13] = "Successful Relief";
+    states[14] = "Offered advice and assisstance to\nsecure accomodation, including\naccess to support accomodation";
+
+    // Automatically label each of the nodes
+    states.forEach(function(state) { g.setNode(state, { label: state }); });
+
+    // Set up the edges
+    g.setEdge(states[0], states[1],   { label: "", labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[0], states[2],   { label: "" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[1], states[3],   { label: "128,483" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[1], states[4],   { label: "" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[4], states[3],   { label: "" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[4], states[5],   { label: "" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[3], states[6],   { label: "7,523" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[6], states[9],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[3], states[8],   { label: "120,960" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[8], states[7],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[8], states[11],   { label: "44,121" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[8], states[12],   { label: "24,800" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[8], states[13],   { label: "6,737" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[8], states[10],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[8], states[14],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[12], states[14],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[13], states[14],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[5], states[14],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+    g.setEdge(states[6], states[7],   { label: "?" , labelStyle: "stroke: none; fill: white"});
+
+    // Set some general styles
+    g.nodes().forEach(function(v) {
+      var node = g.node(v);
+      node.rx = node.ry = 5;
+    });
+
+    // Add some custom colors based on state
+    //g.node(states[0]).style = "border-radius: 20px";
+    //g.setNode(states[0], { shape: "ellipse" });
+    //g.node('ESTAB').style = "fill: #7f7";
+
+    var svg = d3.select("svg"),
+        inner = svg.select("g");
+
+    // Set up zoom support
+    var zoom = d3.behavior.zoom().on("zoom", function() {
+          inner.attr("transform", "translate(" + d3.event.translate + ")" +
+                                      "scale(" + d3.event.scale + ")");
+        });
+    svg.call(zoom);
+
+    // Create the renderer
+    var render = new dagreD3.render();
+
+    // Run the renderer. This is what draws the final graph.
+    render(inner, g);
+
+    inner.selectAll("g.node")
+      .on('click', function (d) { 
+        if(d == states[3]){
+          document.getElementById("stacked_bar_1").innerHTML="";
+          $('#myModal').modal('show');
+          drawStackedBar();
+        } else if(d == states[8]){
+          document.getElementById("bubble_chart_1").innerHTML="";
+          $('#myModal2').modal('show');
+          drawBubbleChart("AllAgesHS.csv","#bubble_chart_1", "Population");
+        } else if(d == states[6]){
+          document.getElementById("bubble_chart_2").innerHTML="";
+          $('#myModal3').modal('show');
+          drawBubbleChart("AllAgesCSv2.csv","#bubble_chart_2", "CS Count");
+        } else if(d == states[0]){
+          document.getElementById("word_cloud").innerHTML="";
+          $('#myModal4').modal('show');
+          drawWordCloud();
+        } else if(d == states[11]){
+          document.getElementById("pieChart").innerHTML="";
+          $('#myModal5').modal('show');
+          drawPieChart();
+        }
+      });
+
+    // Center the graph
+    var initialScale = 0.9;
+    zoom
+      .translate([(svg.attr("width") - g.graph().width * initialScale) / 2, 20])
+      .scale(initialScale)
+      .event(svg);
+    svg.attr('height', g.graph().height * initialScale + 40);
+
+    }
+
+    function drawStackedBar(){
+        var margin = {top: 20, right: 20, bottom: 30, left: 40},
+        width = 500 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+
+        var x = d3.scale.ordinal()
+            .rangeRoundBands([0, width], .1);
+
+        var y = d3.scale.linear()
+            .rangeRound([height, 0]);
+
+        var color = d3.scale.ordinal()
+            .range(["#FF7700", "#FFBB80"]);
+
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom");
+
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .tickFormat(d3.format(".2s"));
+
+        var svg = d3.select("#stacked_bar_1").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        d3.csv("AllAgesTotals.csv", function(error, data) {
+          if (error) throw error;
+
+          color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Year"; }));
+
+          data.forEach(function(d) {
+            var y0 = 0;
+            d.ages = color.domain().map(function(name) { return {name: name, y0: y0, y1: y0 += +d[name]}; });
+            d.total = d.ages[d.ages.length - 1].y1;
+          });
+
+          x.domain(data.map(function(d) { return d.Year; }));
+          y.domain([0, d3.max(data, function(d) { return d.total; })]);
+
+          svg.append("g")
+              .attr("class", "x axis")
+              .attr("transform", "translate(0," + height + ")")
+              .call(xAxis);
+
+          svg.append("g")
+              .attr("class", "y axis")
+              .call(yAxis)
+            .append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 6)
+              .attr("dy", ".71em")
+              .style("text-anchor", "end")
+              .text("Population");
+
+          var state = svg.selectAll(".state")
+              .data(data)
+            .enter().append("g")
+              .attr("class", "g")
+              .attr("transform", function(d) { return "translate(" + x(d.Year) + ",0)"; });
+
+          state.selectAll("rect")
+              .data(function(d) { return d.ages; })
+            .enter().append("rect")
+              .attr("width", 50)
+              .attr("y", function(d) { return y(d.y1); })
+              .attr("transform", function(d, i) { return "translate(20," + 0 + ")"; })
+              .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+              .style("fill", function(d) { return color(d.name); });
+
+          var legend = svg.selectAll(".legend")
+              .data(color.domain().slice().reverse())
+            .enter().append("g")
+              .attr("class", "legend")
+              .attr("transform", function(d, i) { return "translate(0," + (i * 20 - 20) + ")"; });
+
+          legend.append("rect")
+              .attr("x", width - 18)
+              .attr("width", 18)
+              .attr("height", 18)
+              .style("fill", color);
+
+          legend.append("text")
+              .attr("x", width - 24)
+              .attr("y", 9)
+              .attr("dy", ".35em")
+              .style("text-anchor", "end")
+              .text(function(d) { return d; });
+
+        });
+    }
+
+    function drawBubbleChart(filename, divtag, yaxis){
+      var margin = {top: 20, right: 20, bottom: 30, left: 60},
+          width = 500 - margin.left - margin.right,
+          height = 500 - margin.top - margin.bottom;
+
+      var x = d3.scale.ordinal()
+          .rangeRoundBands([0, width]);
+
+      var y = d3.scale.linear()
+          .range([height, 0]);
+
+      var color = d3.scale.category10();
+
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("bottom");
+
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left");
+
+      var svg = d3.select(divtag).append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      d3.csv(filename, function(error, data) {
+        if (error) throw error;
+
+        data.forEach(function(d) {
+          d.Population_Density = +d.Population_Density;
+          d.CS_Count = +d.CS_Count;
+          d.Year = +d.Year;
+          if (d.HS_Count == null){
+            d.HS_Count = 4.5;
+          }
+          d.HS_Count = +d.HS_Count;
+        });
+
+        x.domain(data.map(function(d) { return d.Year; }));
+        y.domain(d3.extent(data, function(d) { 
+          if (yaxis == "Population"){
+            return d.Population_Density;
+          } else {
+            return d.CS_Count;
+          }
+        })).nice();
+
+        console.log(d3.extent(data, function(d) { return d.CS_Count; }));
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis)
+          .append("text")
+            .attr("class", "label")
+            .attr("x", width)
+            .attr("y", -6)
+            .style("text-anchor", "end")
+            .text("Year");
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+          .append("text")
+            .attr("class", "label")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text(yaxis)
+
+        svg.selectAll(".dot")
+            .data(data)
+          .enter().append("circle")
+            .attr("class", "dot")
+            .attr("r", function(d) { if(((d.HS_Count/40) <= 4.5) && (yaxis == "Population")){
+                                              return 4.5;
+                                     } else if(((d.HS_Count/40)<= 4.5) && (yaxis == "CS Count")) {
+                                              return 10;
+                                     } else {
+                                              return d.HS_Count/40;
+                                     }; })
+            .attr("cx", function(d) { return x(d.Year) + (width/3)/2; })
+            .attr("cy", function(d) { if (yaxis == "Population"){
+                                        return y(d.Population_Density);
+                                      } else {
+                                        return y(d.CS_Count);
+                                      } })
+            .style("fill", function(d) { return color(d.LocalAuthority); })
+            .append("svg:title")
+            .text(function(d) { if (yaxis == "Population"){
+                return d.LocalAuthority + ": " + d.HS_Count + " (Pop: " + d.Population_Density + ")"; }
+                else {
+                  return d.LocalAuthority + ": " + d.CS_Count;  
+                }});
+
+      });
+    }
+
+    function drawWordCloud(){
+          (function() {
+          var fill = d3.scale.category10();
+
+          d3.csv("WordCloud.csv", function(error, data) {
+            var layout = d3.layout.cloud()
+                .size([550, 400])
+                .words(data.map(function(d) {
+                  return {text: d.Word, size: d.Count * 1.2};
+                }))
+                .padding(5)
+                .rotate(function() { return ~~(Math.random() * 2) * 90; })
+                .font("Impact")
+                .fontSize(function(d) { return d.size; })
+                .on("end", draw);
+            layout.start();
+
+            function draw(words) {
+            d3.select("#word_cloud").append("svg")
+                .attr("width", layout.size()[0])
+                .attr("height", layout.size()[1])
+              .append("g")
+                .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+              .selectAll("text")
+                .data(words)
+              .enter().append("text")
+                .style("font-size", function(d) { return d.size + "px"; })
+                .style("font-family", "Impact")
+                .style("fill", function(d, i) { return fill(i); })
+                .attr("text-anchor", "middle")
+                .attr("transform", function(d) {
+                  return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .text(function(d) { return d.text; });
+          }
+          });
+          })();
+    }
+
+    function drawPieChart(){
+        var w = 400,
+            h = 400,
+            r = 180,
+            inner = 70,
+            color = d3.scale.category10();
+
+        d3.csv("AllAgesPreventionRelief.csv", function(error, data) {
+
+        data.forEach(function(d) {
+          d.value = +d.value;
+        });
+
+        //data = [{"label":"ONE", "value":194}, 
+        //        {"label":"TWO", "value":567}, 
+        //        {"label":"THREE", "value":1314},
+        //        {"label":"FOUR", "value":793},
+        //        {"label":"FIVE", "value":1929},
+        //        {"label":"SIX", "value":1383}];
+
+        var total = d3.sum(data, function(d) {
+            return d3.sum(d3.values(d));
+        });
+
+        var vis = d3.select("#pieChart")
+            .append("svg:svg")
+            .data([data])
+                .attr("width", w)
+                .attr("height", h)
+            .append("svg:g")
+                .attr("transform", "translate(" + r * 1.1 + "," + r * 1.1 + ")")
+
+        var textTop = vis.append("text")
+            .attr("dy", ".35em")
+            .style("text-anchor", "middle")
+            .attr("class", "textTop")
+            .text( "TOTAL" )
+            .attr("y", -10),
+        textBottom = vis.append("text")
+            .attr("dy", ".35em")
+            .style("text-anchor", "middle")
+            .attr("class", "textBottom")
+            .text(total)
+            .attr("y", 10);
+
+        var arc = d3.svg.arc()
+            .innerRadius(inner)
+            .outerRadius(r);
+
+        var arcOver = d3.svg.arc()
+            .innerRadius(inner + 5)
+            .outerRadius(r + 5);
+         
+        var pie = d3.layout.pie()
+            .value(function(d) { return d.value; });
+         
+        var arcs = vis.selectAll("g.slice")
+            .data(pie)
+            .enter()
+                .append("svg:g")
+                    .attr("class", "slice")
+                    .on("mouseover", function(d) {
+                        d3.select(this).select("path").transition()
+                            .duration(200)
+                            .attr("d", arcOver)
+                        
+                        textTop.text(d3.select(this).datum().data.label)
+                            .attr("y", -10);
+                        textBottom.text(d3.select(this).datum().data.value)
+                            .attr("y", 10);
+                    })
+                    .on("mouseout", function(d) {
+                        d3.select(this).select("path").transition()
+                            .duration(100)
+                            .attr("d", arc);
+                        
+                        textTop.text( "TOTAL" )
+                            .attr("y", -10);
+                        textBottom.text(total);
+                    });
+
+        arcs.append("svg:path")
+            .attr("fill", function(d, i) { return color(i); } )
+            .attr("d", arc);
+
+        var legend = d3.select("#chart").append("svg")
+            .attr("class", "legend")
+            .attr("width", r)
+            .attr("height", r * 2)
+            .selectAll("g")
+            .data(data)
+            .enter().append("g")
+            .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+        legend.append("rect")
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", function(d, i) { return color(i); });
+
+        legend.append("text")
+            .attr("x", 24)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .text(function(d) { return d.label; });
+        });
+    }
+
+    </script>
+  </body>
+</html>
