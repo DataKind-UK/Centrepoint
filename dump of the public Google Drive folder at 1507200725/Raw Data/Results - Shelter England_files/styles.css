@@ -1,0 +1,859 @@
+#page_tools {
+	display: none;
+}
+a.print {
+	display: none!important;
+}
+#query_builder button, #query_builder input, #results button {
+	border: 0;
+	font-family: Helvetica,Arial;
+	margin: 0;
+	padding: 0;
+}
+#query_builder button, #results button {
+	text-align: center;
+}
+#query_builder button::-moz-focus-inner, #results button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+#query_builder input, #updates input {
+	color: #BBB;
+}
+#query_builder input:active, #query_builder input:focus, #updates input:active, #updates input:focus {
+	outline: 0;
+}
+input:active {
+	outline: none;
+}
+.ie_warning {
+	color: #f00;
+}
+.steps {
+	float: left;
+	margin: 10px 0 0 10px;
+}
+.steps div {
+	border-radius: 12px;
+	box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.5);
+	float: left;
+	height: 12px;
+	margin-right: 3px;
+	moz-border-radius: 12px;
+	moz-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.5);
+	overflow: hidden;
+	text-indent: -9999px;
+	webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.5);
+	width: 12px;
+}
+#query_builder {
+	border-top: 1px solid #e2e2e2;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+#area_list, #area_basket .basket_list, #data_list, #data_basket .basket_list {
+	border: 1px solid #cfcfcf;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+}
+.list_container {
+	color: #333;
+	float: left;
+	overflow: hidden;
+	width: 335px;
+}
+.stage_group {
+	clear: both;
+	padding-bottom: 20px;
+}
+.stage_group h2 {
+	color: #000!important;
+	display: block;
+	float: left;
+	font-size: 24px!important;
+	margin: 0!important;
+}
+.stage_group h3 {
+	display: block;
+	font-weight: normal!important;
+}
+#date_selector {
+	padding-top: 20px;
+}
+.list_container h3 {
+	font-size: 19px!important;
+	height: 39px;
+	line-height: 38px;
+	margin: 0!important;
+	padding-left: 5px!important;
+}
+.basket_list {
+	clear: both;
+	display: block;
+	height: 200px;
+	margin: 0!important;
+	overflow: auto;
+}
+.basket_list li, .basket_list ul {
+	clear: both;
+	display: block;
+	font-size: 12px;
+	padding: 0!important;
+}
+.basket_list ul {
+	border-bottom: 2px solid #d7d7d7;
+	display: none;
+	margin: 0!important;
+}
+.basket_list .list_label, .basket_list .list_cat {
+	display: block;
+	float: left;
+	line-height: 15px;
+	padding: 8px 0 7px 25px;
+	width: 250px;
+}
+.basket .list_label, .basket .list_cat {
+	padding: 8px 0 7px 10px!important;
+}
+#query_builder .basket_list .open_items {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -84px -16px no-repeat;
+	cursor: pointer;
+}
+#query_builder .basket_list .open_items.opened {
+	background-position: -82px -41px;
+}
+li.basket_placeholder {
+	background-color: #333!important;
+	height: 30px;
+}
+.basket_list li li .list_label {
+	margin-left: 25px;
+	width: 210px;
+}
+.basket_list li li li .list_label {
+	margin-left: 45px;
+	width: 190px;
+}
+.basket_list li li li li .list_label {
+	margin-left: 65px;
+	width: 170px;
+}
+#query_builder .basket_list li {
+	background: #f8f8f8;
+}
+#query_builder .basket_list li:nth-child(odd) {
+	background: #f8f8f8;
+}
+#query_builder .basket_list li:nth-child(even) {
+	background: #ededed;
+}
+#query_builder .basket_list li.opened {
+	background: #ddd!important;
+}
+.ui-sortable .list_label {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -82px -211px no-repeat;
+	padding-left: 28px!important;
+}
+.search_results {
+	background: #FFF;
+	border-bottom: 3px solid #d7d7d7;
+	display: none;
+	height: 197px;
+	position: absolute;
+	width: 335px;
+}
+.no_results {
+	color: #999;
+}
+#area_basket li, #data_basket li {
+	cursor: move;
+}
+.ui-sortable-helper {
+	border: 1px solid #333;
+}
+#area_basket ul.list_empty {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/select_backgrounds.png') 64px 80px no-repeat;
+}
+#data_basket ul.list_empty {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/select_backgrounds.png') -340px 80px no-repeat;
+}
+.search_bar {
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	height: 39px;
+	moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.search_close {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -1px -222px no-repeat!important;
+	cursor: pointer;
+	float: right;
+	height: 12px;
+	margin: 14px 14px 0 0!important;
+	text-indent: -9999px;
+	width: 12px;
+}
+.search_close:active {
+	position: relative;
+	top: 1px;
+}
+.search_icon {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') no-repeat!important;
+	float: left;
+	height: 25px;
+	margin: 7px!important;
+	text-indent: -9999px;
+	width: 25px;
+}
+.search_bar input {
+	float: left;
+	font-size: 16px;
+	height: 29px;
+	line-height: 16px;
+	padding-top: 5px!important;
+	width: 250px;
+}
+.list_selector {
+	clear: both;
+	padding: 20px 0 20px;
+}
+.movement_indicator {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -72px -119px no-repeat;
+	float: left;
+	height: 81px;
+	margin: 80px 20px 0 25px;
+	width: 28px;
+}
+.more_info {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') 0 -184px no-repeat;
+	cursor: pointer;
+	height: 16px;
+	text-indent: -9999px;
+	width: 16px;
+}
+#query_builder .more_info {
+	float: right;
+	margin: 7px 3px 0px!important;
+}
+#query_builder .more_info:active {
+	position: relative;
+	top: 1px;
+}
+.list_control {
+	border-radius: 3px;
+	cursor: pointer;
+	float: right;
+	height: 20px;
+	margin: 5px!important;
+	moz-border-radius: 3px;
+	overflow: hidden;
+	width: 20px;
+}
+.list_control div {
+	border-radius: 3px;
+	height: 18px;
+	moz-border-radius: 3px;
+	width: 18px;
+}
+.list_control span {
+	display: block;
+	height: 18px;
+	text-indent: -9999px;
+	width: 18px;
+}
+.list_add div {
+	border: 1px solid #c9c9c9;
+}
+.list_add span {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -26px 4px no-repeat;
+}
+.list_add:active div {
+	box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.1);
+	moz-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.1);
+	webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.1);
+}
+.list_add:active span {
+	background-position: -26px 5px;
+}
+.list_remove div {
+	border: 1px solid #a90000;
+}
+.list_remove span {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -26px -12px no-repeat;
+}
+.list_remove:active div {
+	box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.5);
+	moz-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.5);
+	webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.5);
+}
+.list_remove:active span {
+	background-position: -26px -11px;
+}
+#date_selector h3 {
+	margin: 0 0 20px;
+	padding: 5px 0 20px;
+}
+#quarterly_switch {
+	background: #ededed!important;
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	margin: 1px 0 0 10px!important;
+	moz-border-radius: 3px;
+	padding: 10px!important;
+}
+#quarterly_switch span {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') 63px -131px no-repeat;
+	line-height: 14px;
+	padding-right: 21px;
+}
+#quarterly_switch.quarterly_enabled span {
+	background-position: 63px -159px;
+}
+.step_current, .list_remove, .ui-slider-range, button.important {
+	background: #b50000!important;
+	background: linear-gradient(top, #ff0000 0%,#b50000 100%)!important;
+	background: -moz-linear-gradient(top, #ff0000 0%, #b50000 100%)!important;
+	background: -ms-linear-gradient(top, #ff0000 0%,#b50000 100%)!important;
+	background: -o-linear-gradient(top, #ff0000 0%,#b50000 100%)!important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0000), color-stop(100%,#b50000))!important;
+	background: -webkit-linear-gradient(top, #ff0000 0%,#b50000 100%)!important;
+	color: #FFF;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#B50000',GradientType=0 )!important;
+	text-shadow: 0px -1px 0px #660000;
+}
+.steps div, .list_add {
+	background: #eaeaea;
+	background: linear-gradient(top, #f6f6f6 0%,#dfdfdf 100%);
+	background: -moz-linear-gradient(top, #f6f6f6 0%, #dfdfdf 100%);
+	background: -ms-linear-gradient(top, #f6f6f6 0%,#dfdfdf 100%);
+	background: -o-linear-gradient(top, #f6f6f6 0%,#dfdfdf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#dfdfdf));
+	background: -webkit-linear-gradient(top, #f6f6f6 0%,#dfdfdf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6F6F6', endColorstr='#DFDFDF',GradientType=0 );
+}
+.ui-slider-range-full {
+	background: #929292!important;
+	background: linear-gradient(top, #a4a4a4 0%,#7b7b7b 100%)!important;
+	background: -moz-linear-gradient(top, #a4a4a4 0%, #7b7b7b 100%)!important;
+	background: -ms-linear-gradient(top, #a4a4a4 0%,#7b7b7b 100%)!important;
+	background: -o-linear-gradient(top, #a4a4a4 0%,#7b7b7b 100%)!important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4a4a4), color-stop(100%,#7b7b7b))!important;
+	background: -webkit-linear-gradient(top, #a4a4a4 0%,#7b7b7b 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A4A4A4', endColorstr='#7B7B7B',GradientType=0 )!important;
+}
+#range_container {
+	background: #eaeaea;
+	background: linear-gradient(top, #dfdfdf 0%,#f6f6f6 100%);
+	background: -moz-linear-gradient(top, #dfdfdf 0%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #dfdfdf 0%,#f6f6f6 100%);
+	background: -o-linear-gradient(top, #dfdfdf 0%,#f6f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#f6f6f6));
+	background: -webkit-linear-gradient(top, #dfdfdf 0%,#f6f6f6 100%);
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DFDFDF', endColorstr='#F6F6F6',GradientType=0 );
+	float: left;
+	height: 35px;
+	moz-border-radius: 5px;
+	position: relative;
+	width: 500px;
+}
+#range_container div {
+	position: absolute;
+}
+#range_inner {
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	height: 33px;
+	moz-border-radius: 4px;
+	width: 498px;
+}
+.ui-slider-range, #range_full {
+	height: 35px;
+}
+.ui-slider-range {
+	border: 1px solid #BE0000;
+	left: 10px;
+	margin-left: 16px;
+	position: absolute;
+	right: 10px;
+	top: -1px;
+}
+#range_full {
+	border: 1px solid #BE0000;
+	left: 150px;
+	top: -1px;
+	width: 150px;
+}
+#range_limits {
+	height: 35px;
+	position: relative;
+	top: -1px;
+	width: 468px;
+}
+.ui-slider-handle {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') 0 -25px no-repeat;
+	cursor: pointer;
+	display: block;
+	height: 57px;
+	padding: 0 14px;
+	position: absolute;
+	top: -9px;
+	width: 2px;
+	z-index: 50;
+}
+.ui-state-focus {
+	outline: none;
+}
+#range_indicator {
+	border-left: 1px solid #888;
+	height: 16px;
+	margin: 20px 0 0 16px;
+	position: relative;
+	width: 468px;
+}
+.year_segment {
+	border-right: 1px solid #888;
+	height: 16px;
+	position: absolute;
+}
+.quarter_segment {
+	border-right: 1px solid #aaa;
+	display: none;
+	float: left;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	width: 25%;
+}
+#range_inputs {
+	padding-top: 20px;
+}
+#range_inputs label {
+	color: #333;
+	display: block;
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+	margin-right: 10px;
+	padding-top: 4px;
+}
+#range_inputs select {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #333;
+	float: left;
+	font-size: 16px;
+	margin-right: 10px;
+	moz-border-radius: 5px;
+	padding: 10px;
+	width: 110px;
+}
+#get_data {
+	border: 1px solid #660000!important;
+	border-radius: 5px;
+	color: #FFF;
+	cursor: pointer;
+	moz-border-radius: 5px;
+	padding: 15px 25px!important;
+	position: relative;
+	width: 167px;
+}
+#get_data:active {
+	box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.5);
+	moz-box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.5);
+	padding: 16px 25px 14px;
+	webkit-box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.5);
+}
+#get_data span {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') 102px -85px no-repeat;
+	display: block;
+	font-size: 24px;
+	line-height: 27px;
+	padding-right: 20px;
+}
+#get_data_error {
+	color: red;
+	display: none;
+	margin-top: 10px;
+}
+#get_data_excel {
+	display: block;
+	margin-top: 10px;
+}
+#get_data_excel a {
+	color: #069;
+	display: block;
+	float: left;
+	font-size: 16px;
+}
+#get_data_excel span {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -91px -75px no-repeat;
+	display: block;
+	float: left;
+	height: 4px;
+	left: 5px;
+	position: relative;
+	top: 9px;
+	width: 9px;
+}
+#updates {
+	border-top: 1px solid #E2E2E2;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+#updates h3 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0;
+}
+#updates fieldset {
+	clear: both;
+	padding-top: 10px;
+}
+#updates input, #updates button {
+	float: left;
+	font-size: 14px;
+	padding: 0 10px;
+}
+#updates input {
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	height: 33px;
+	line-height: 14px;
+	moz-border-radius: 5px;
+	width: 300px;
+}
+#updates button {
+	border: 1px solid #660000;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	cursor: pointer;
+	height: 35px;
+	left: -20px;
+	position: relative;
+}
+#updates button:active {
+	box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
+	moz-box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
+	webkit-box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
+}
+#updates button span {
+	line-height: 14px;
+	position: relative;
+	top: 1px;
+}
+#updates button:active span {
+	top: 2px;
+}
+#updates p {
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+#controls {
+	padding-top: 10px;
+}
+#controls a {
+	color: #333;
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#search_controls {
+	background: #e3e3e3;
+	border-radius: 5px;
+	float: right;
+	moz-border-radius: 5px;
+	padding: 10px 7px;
+	width: 230px;
+}
+#search_controls a {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bdbdbd;
+	padding: 0 7px;
+}
+#search_controls a:first-child {
+	border-left: 0;
+}
+#search_controls a:last-child {
+	border-right: 0;
+}
+#results_cp {
+	border-bottom: 1px solid #e2e2e2;
+}
+#results_options {
+	float: right;
+}
+#results_options a {
+}
+#results_cp h1 {
+	float: left;
+}
+#results h2 {
+	color: #000;
+	display: block;
+	float: left;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+#results .table_set, #results .graph_set {
+	padding: 20px 0px;
+}
+#results .results_table tbody {
+	border-top: 1px solid #cfcfcf;
+}
+#results .table_overflow {
+	border-left: 1px solid #cfcfcf;
+	clear: both;
+	max-height: 350px;
+	overflow-x: scroll;
+	overflow-y: hide;
+	position: relative;
+}
+#results .more_info {
+	left: 2px;
+	position: relative;
+	top: -2px;
+}
+#results .more_info:active {
+	top: -1px;
+}
+#results table {
+	border: 1px solid #cfcfcf;
+	border-collapse: collapse;
+	color: #333;
+}
+#results td, #results th {
+	border-right: 1px solid #cfcfcf;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+}
+#results span {
+	white-space: nowrap;
+}
+#results th {
+	font-weight: bold;
+}
+#results td.area_name {
+	font-weight: bold;
+	text-align: left!important;
+}
+#results tr {
+	background: #ededed;
+}
+#results tr:nth-child(odd) {
+	background: #ededed;
+}
+#results tr:nth-child(even) {
+	background: #f8f8f8;
+}
+#results th {
+	background: #fff;
+}
+#results .table_header {
+	border: none;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+#results .table_header div {
+	width: 2000px;
+}
+#results .table_fcol {
+	border: 1px solid #cfcfcf;
+	border-right: none;
+	float: left;
+	max-height: 350px;
+	overflow: hidden;
+}
+#results .table_fcol table {
+	border: none;
+}
+#results .table_fcol td {
+	border-right: none!important;
+}
+#results .table_header table {
+	border-bottom: 0;
+}
+#results_cp a.table_utility {
+	color: #333;
+	text-decoration: none!important;
+}
+#results_new {
+	border-radius: 0;
+}
+.table_utility, .tv {
+	background: #DDD;
+	background: linear-gradient(top, #f0f0f0 0%,#ddd 100%);
+	background: -moz-linear-gradient(top, #f0f0f0 0%, #ddd 100%);
+	background: -ms-linear-gradient(top, #f0f0f0 0%,#ddd 100%);
+	background: -webkit-linear-gradient(top, #f0f0f0 0%,#ddd 100%);
+	cursor: pointer;
+	float: right;
+	font-size: 14px;
+	padding: 10px 15px !important;
+	position: relative;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.table_utility:active, .tv:active {
+	box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.table_utility {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.clear_select {
+	position: relative;
+	right: 15px;
+}
+.select_all {
+	display: none;
+	float: left!important;
+	left: 12px;
+	position: relative;
+}
+p.no_data {
+	clear: both;
+	color: #999!important;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0;
+}
+td.no_data {
+	color: #999!important;
+}
+.table_head {
+	float: left;
+	width: 500px;
+}
+.table_view_switch {
+	float: right;
+	margin-top: 8px;
+	width: 200px;
+}
+.tv_table, #results_edit {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 5px;
+}
+.tv_graph, #results_new {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.tv_selected {
+	background: #CCC;
+	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+	moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.data_container {
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.data_slide {
+	width: 1498px;
+}
+.data_container, .table_container, .graph_container {
+	width: 749px;
+}
+.table_container, .graph_container {
+	float: left;
+}
+.graph_container {
+	height: 400px;
+}
+.json_data {
+	display: none;
+}
+#infobox, #ib_overlay {
+	display: none;
+	left: 0;
+	position: fixed;
+	text-align: left;
+	top: 0;
+}
+#ib_overlay {
+	background: #000;
+	width: 100%;
+	z-index: 1000;
+}
+#ib_loading {
+	left: 0;
+	position: fixed;
+	top: 0;
+}
+#infobox {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 1);
+	moz-border-radius: 5px;
+	moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 1);
+	webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 1);
+	z-index: 1001;
+}
+#ib_content {
+	padding: 25px;
+}
+#ib_content p {
+	color: #333;
+}
+#ib_close {
+	background: url('http://www.sheltercontent.org.uk/housingdata/images/sprites.png') -73px -83px no-repeat!important;
+	border: 0;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 27px;
+	text-indent: -9999px;
+	width: 27px;
+}
+#ib_close:active {
+	position: relative;
+	top: 1px;
+}
+#ib_add {
+	height: inherit;
+	overflow: hidden;
+	padding-top: 10px;
+}
+#ib_add li {
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	clear: none;
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 230px;
+}
+#ib_add button {
+	border: 0;
+	padding: 0;
+}
+#ib_add span {
+	padding-left: 10px;
+	width: 150px;
+}
+button {
+	overflow: visible;
+}
+.basket_list li:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+* html .basket_list li {
+	zoom: 1;
+}
+*:first-child+html .basket_list li {
+	zoom: 1;
+}

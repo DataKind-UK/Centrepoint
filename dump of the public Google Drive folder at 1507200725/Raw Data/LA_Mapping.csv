@@ -1,0 +1,414 @@
+,id,name
+0,64,England
+1,E,East Midlands
+2,G,East of England
+3,H,London
+4,A,North East
+5,B,North West
+6,J,South East
+7,K,South West
+8,F,West Midlands
+9,D,Yorkshire and the Humber
+10,00AB,Barking and Dagenham
+11,00AC,Barnet
+12,00HA,Bath and North East Somerset UA
+13,00KB,Bedford UA
+14,9,Bedfordshire (pre-2009)
+15,00AD,Bexley
+16,00EX,Blackburn with Darwen UA
+17,00EY,Blackpool UA
+18,00HN,Bournemouth UA
+19,00MA,Bracknell Forest UA
+20,00AE,Brent
+21,00ML,Brighton and Hove UA
+22,00HB,"Bristol, City of UA"
+23,00AF,Bromley
+24,11,Buckinghamshire 
+25,12,Cambridgeshire 
+26,00AG,Camden
+27,00KC,Central Bedfordshire UA
+28,13,Cheshire (pre-2009)
+29,00EQ,Cheshire East UA
+30,00EW,Cheshire West and Chester UA
+31,00AA,City of London
+32,15,Cornwall (pre-2009)
+33,00HE,Cornwall UA
+34,20,County Durham (pre-2009)
+35,00AH,Croydon
+36,16,Cumbria
+37,00EH,Darlington UA
+38,00FK,Derby UA
+39,17,Derbyshire
+40,18,Devon 
+41,19,Dorset
+42,00EJ,Durham UA
+43,00AJ,Ealing
+44,00FB,East Riding of Yorkshire UA
+45,21,East Sussex 
+46,00AK,Enfield
+47,22,Essex
+48,23,Gloucestershire
+49,2A,Greater Manchester (Met County)
+50,00AL,Greenwich
+51,00AM,Hackney
+52,00ET,Halton UA
+53,00AN,Hammersmith and Fulham
+54,24,Hampshire 
+55,00AP,Haringey
+56,00AQ,Harrow
+57,00EB,Hartlepool UA
+58,00AR,Havering
+59,00GA,"Herefordshire, County of UA"
+60,26,Hertfordshire
+61,00AS,Hillingdon
+62,00AT,Hounslow
+63,00MW,Isle of Wight UA
+64,00HF,Isles of Scilly UA
+65,00AU,Islington
+66,00AW,Kensington and Chelsea
+67,29,Kent 
+68,00FA,"Kingston upon Hull, City of UA"
+69,00AX,Kingston upon Thames
+70,00AY,Lambeth
+71,30,Lancashire 
+72,00FN,Leicester UA
+73,31,Leicestershire 
+74,00AZ,Lewisham
+75,32,Lincolnshire
+76,00KA,Luton UA
+77,00LC,Medway UA
+78,2B,Merseyside (Met County)
+79,00BA,Merton
+80,00EC,Middlesbrough UA
+81,00MG,Milton Keynes UA
+82,00BB,Newham
+83,33,Norfolk
+84,00FC,North East Lincolnshire UA
+85,00FD,North Lincolnshire UA
+86,00HC,North Somerset UA
+87,36,North Yorkshire
+88,34,Northamptonshire
+89,35,Northumberland (pre-2009)
+90,00EM,Northumberland UA
+91,00FY,Nottingham UA
+92,37,Nottinghamshire 
+93,38,Oxfordshire
+94,00JA,Peterborough UA
+95,00HG,Plymouth UA
+96,00HP,Poole UA
+97,00MR,Portsmouth UA
+98,00MC,Reading UA
+99,00BC,Redbridge
+100,00EE,Redcar and Cleveland UA
+101,00BD,Richmond upon Thames
+102,00FP,Rutland UA
+103,39,Shropshire (pre-2009)
+104,00GG,Shropshire UA
+105,00MD,Slough UA
+106,40,Somerset
+107,00HD,South Gloucestershire UA
+108,2C,South Yorkshire (Met County)
+109,00MS,Southampton UA
+110,00KF,Southend-on-Sea UA
+111,00BE,Southwark
+112,41,Staffordshire 
+113,00EF,Stockton-on-Tees UA
+114,00GL,Stoke-on-Trent UA
+115,42,Suffolk
+116,43,Surrey
+117,00BF,Sutton
+118,00HX,Swindon UA
+119,00GF,Telford and Wrekin UA
+120,00KG,Thurrock UA
+121,00HH,Torbay UA
+122,00BG,Tower Hamlets
+123,2D,Tyne and Wear (Met County)
+124,00BH,Waltham Forest
+125,00BJ,Wandsworth
+126,00EU,Warrington UA
+127,44,Warwickshire
+128,00MB,West Berkshire UA
+129,2E,West Midlands (Met County)
+130,45,West Sussex
+131,2F,West Yorkshire (Met County)
+132,00BK,Westminster
+133,46,Wiltshire (pre-2009)
+134,00HY,Wiltshire UA
+135,00ME,Windsor and Maidenhead UA
+136,00MF,Wokingham UA
+137,47,Worcestershire 
+138,00FF,York UA
+139,45UB,Adur
+140,16UB,Allerdale
+141,35UB,Alnwick
+142,17UB,Amber Valley
+143,45UC,Arun
+144,37UB,Ashfield
+145,29UB,Ashford
+146,11UB,Aylesbury Vale
+147,42UB,Babergh
+148,00CC,Barnsley
+149,16UC,Barrow-in-Furness
+150,22UB,Basildon
+151,24UB,Basingstoke and Deane
+152,37UC,Bassetlaw
+153,09UD,Bedford
+154,35UC,Berwick-upon-Tweed
+155,00CN,Birmingham
+156,31UB,Blaby
+157,35UD,Blyth Valley
+158,17UC,Bolsover
+159,00BL,Bolton
+160,32UB,Boston
+161,00CX,Bradford
+162,22UC,Braintree
+163,33UB,Breckland
+164,22UD,Brentwood
+165,39UB,Bridgnorth
+166,33UC,Broadland
+167,47UB,Bromsgrove
+168,26UB,Broxbourne
+169,37UD,Broxtowe
+170,30UD,Burnley
+171,00BM,Bury
+172,00CY,Calderdale
+173,12UB,Cambridge
+174,41UB,Cannock Chase
+175,29UC,Canterbury
+176,15UB,Caradon
+177,16UD,Carlisle
+178,15UC,Carrick
+179,35UE,Castle Morpeth
+180,22UE,Castle Point
+181,31UC,Charnwood
+182,22UF,Chelmsford
+183,23UB,Cheltenham
+184,38UB,Cherwell
+185,13UB,Chester
+186,20UB,Chester-le-Street
+187,17UD,Chesterfield
+188,45UD,Chichester
+189,11UC,Chiltern
+190,30UE,Chorley
+191,19UC,Christchurch
+192,22UG,Colchester
+193,13UC,Congleton
+194,16UE,Copeland
+195,34UB,Corby
+196,23UC,Cotswold
+197,00CQ,Coventry
+198,36UB,Craven
+199,45UE,Crawley
+200,13UD,Crewe and Nantwich
+201,26UC,Dacorum
+202,29UD,Dartford
+203,34UC,Daventry
+204,17UF,Derbyshire Dales
+205,20UD,Derwentside
+206,00CE,Doncaster
+207,29UE,Dover
+208,00CR,Dudley
+209,20UE,Durham
+210,20UF,Easington
+211,12UC,East Cambridgeshire
+212,18UB,East Devon
+213,19UD,East Dorset
+214,24UC,East Hampshire
+215,26UD,East Hertfordshire
+216,32UC,East Lindsey
+217,34UD,East Northamptonshire
+218,41UC,East Staffordshire
+219,21UC,Eastbourne
+220,24UD,Eastleigh
+221,16UF,Eden
+222,13UE,Ellesmere Port and Neston
+223,43UB,Elmbridge
+224,22UH,Epping Forest
+225,43UC,Epsom and Ewell
+226,17UG,Erewash
+227,18UC,Exeter
+228,24UE,Fareham
+229,12UD,Fenland
+230,42UC,Forest Heath
+231,23UD,Forest of Dean
+232,30UF,Fylde
+233,00CH,Gateshead
+234,37UE,Gedling
+235,23UE,Gloucester
+236,24UF,Gosport
+237,29UG,Gravesham
+238,33UD,Great Yarmouth
+239,43UD,Guildford
+240,36UC,Hambleton
+241,31UD,Harborough
+242,22UJ,Harlow
+243,36UD,Harrogate
+244,24UG,Hart
+245,21UD,Hastings
+246,24UH,Havant
+247,26UE,Hertsmere
+248,17UH,High Peak
+249,31UE,Hinckley and Bosworth
+250,45UF,Horsham
+251,12UE,Huntingdonshire
+252,30UG,Hyndburn
+253,42UD,Ipswich
+254,46UB,Kennet
+255,15UD,Kerrier
+256,34UE,Kettering
+257,33UE,King's Lynn and West Norfolk
+258,00CZ,Kirklees
+259,00BX,Knowsley
+260,30UH,Lancaster
+261,00DA,Leeds
+262,21UF,Lewes
+263,41UD,Lichfield
+264,32UD,Lincoln
+265,00BY,Liverpool
+266,13UG,Macclesfield
+267,29UH,Maidstone
+268,22UK,Maldon
+269,47UC,Malvern Hills
+270,00BN,Manchester
+271,37UF,Mansfield
+272,31UG,Melton
+273,40UB,Mendip
+274,09UC,Mid Bedfordshire
+275,18UD,Mid Devon
+276,42UE,Mid Suffolk
+277,45UG,Mid Sussex
+278,43UE,Mole Valley
+279,24UJ,New Forest
+280,37UG,Newark and Sherwood
+281,00CJ,Newcastle upon Tyne
+282,41UE,Newcastle-under-Lyme
+283,15UE,North Cornwall
+284,18UE,North Devon
+285,19UE,North Dorset
+286,17UJ,North East Derbyshire
+287,26UF,North Hertfordshire
+288,32UE,North Kesteven
+289,33UF,North Norfolk
+290,39UC,North Shropshire
+291,00CK,North Tyneside
+292,44UB,North Warwickshire
+293,31UH,North West Leicestershire
+294,46UC,North Wiltshire
+295,34UF,Northampton
+296,33UG,Norwich
+297,44UC,Nuneaton and Bedworth
+298,31UJ,Oadby and Wigston
+299,00BP,Oldham
+300,39UD,Oswestry
+301,38UC,Oxford
+302,30UJ,Pendle
+303,15UF,Penwith
+304,30UK,Preston
+305,19UG,Purbeck
+306,47UD,Redditch
+307,43UF,Reigate and Banstead
+308,15UG,Restormel
+309,30UL,Ribble Valley
+310,36UE,Richmondshire
+311,00BQ,Rochdale
+312,22UL,Rochford
+313,30UM,Rossendale
+314,21UG,Rother
+315,00CF,Rotherham
+316,44UD,Rugby
+317,43UG,Runnymede
+318,37UJ,Rushcliffe
+319,24UL,Rushmoor
+320,36UF,Ryedale
+321,00BR,Salford
+322,46UD,Salisbury
+323,00CS,Sandwell
+324,36UG,Scarborough
+325,20UG,Sedgefield
+326,40UC,Sedgemoor
+327,00CA,Sefton
+328,36UH,Selby
+329,29UK,Sevenoaks
+330,00CG,Sheffield
+331,29UL,Shepway
+332,39UE,Shrewsbury and Atcham
+333,00CT,Solihull
+334,09UE,South Bedfordshire
+335,11UE,South Bucks
+336,12UG,South Cambridgeshire
+337,17UK,South Derbyshire
+338,18UG,South Hams
+339,32UF,South Holland
+340,32UG,South Kesteven
+341,16UG,South Lakeland
+342,33UH,South Norfolk
+343,34UG,South Northamptonshire
+344,38UD,South Oxfordshire
+345,30UN,South Ribble
+346,39UF,South Shropshire
+347,40UD,South Somerset
+348,41UF,South Staffordshire
+349,00CL,South Tyneside
+350,43UH,Spelthorne
+351,00BZ,St Helens
+352,26UG,St. Albans
+353,42UF,St. Edmundsbury
+354,41UG,Stafford
+355,41UH,Staffordshire Moorlands
+356,26UH,Stevenage
+357,00BS,Stockport
+358,44UE,Stratford-on-Avon
+359,23UF,Stroud
+360,42UG,Suffolk Coastal
+361,00CM,Sunderland
+362,43UJ,Surrey Heath
+363,29UM,Swale
+364,00BT,Tameside
+365,41UK,Tamworth
+366,43UK,Tandridge
+367,40UE,Taunton Deane
+368,20UH,Teesdale
+369,18UH,Teignbridge
+370,22UN,Tendring
+371,24UN,Test Valley
+372,23UG,Tewkesbury
+373,29UN,Thanet
+374,26UJ,Three Rivers
+375,29UP,Tonbridge and Malling
+376,18UK,Torridge
+377,00BU,Trafford
+378,29UQ,Tunbridge Wells
+379,35UF,Tynedale
+380,22UQ,Uttlesford
+381,38UE,Vale of White Horse
+382,13UH,Vale Royal
+383,00DB,Wakefield
+384,00CU,Walsall
+385,35UG,Wansbeck
+386,44UF,Warwick
+387,26UK,Watford
+388,42UH,Waveney
+389,43UL,Waverley
+390,21UH,Wealden
+391,20UJ,Wear Valley
+392,34UH,Wellingborough
+393,26UL,Welwyn Hatfield
+394,18UL,West Devon
+395,19UH,West Dorset
+396,30UP,West Lancashire
+397,32UH,West Lindsey
+398,38UF,West Oxfordshire
+399,40UF,West Somerset
+400,46UF,West Wiltshire
+401,19UJ,Weymouth and Portland
+402,00BW,Wigan
+403,24UP,Winchester
+404,00CB,Wirral
+405,43UM,Woking
+406,00CW,Wolverhampton
+407,47UE,Worcester
+408,45UH,Worthing
+409,47UF,Wychavon
+410,11UF,Wycombe
+411,30UQ,Wyre
+412,47UG,Wyre Forest
