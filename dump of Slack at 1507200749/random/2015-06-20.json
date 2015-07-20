@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U06K9AUBZ",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U06K9AUBZ|bgrichardson24> has joined the channel",
+        "ts": "1434811559.000002"
+    }
+]

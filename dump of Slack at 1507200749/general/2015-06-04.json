@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U055YF65Q",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U055YF65Q|billywong9> has joined the channel",
+        "ts": "1433410753.000002"
+    }
+]

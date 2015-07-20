@@ -1,0 +1,51 @@
+[
+    {
+        "user": "U0567APNF",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0567APNF|emma> has joined the channel",
+        "ts": "1433350642.216817"
+    },
+    {
+        "user": "U055M16T2",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U055M16T2|emmad> has joined the channel",
+        "ts": "1433355904.000002"
+    },
+    {
+        "user": "U0569GWAT",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0569GWAT|jackdmcguire> has joined the channel",
+        "ts": "1433358521.318179"
+    },
+    {
+        "user": "U0569UC3T",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0569UC3T|gmorinan> has joined the channel",
+        "ts": "1433359890.335901"
+    },
+    {
+        "user": "U055PQSEW",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U055PQSEW|fran> has joined the channel",
+        "ts": "1433366186.000002"
+    },
+    {
+        "user": "U055PSY30",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U055PSY30|ismako> has joined the channel",
+        "ts": "1433366447.000003"
+    },
+    {
+        "user": "U056D8TMZ",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U056D8TMZ|lvalnegri> has joined the channel",
+        "ts": "1433372954.000002"
+    }
+]

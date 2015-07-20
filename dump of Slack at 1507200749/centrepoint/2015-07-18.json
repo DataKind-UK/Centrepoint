@@ -1,0 +1,326 @@
+[
+    {
+        "user": "U07RJG7A9",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJG7A9|robin> has joined the channel",
+        "ts": "1437213954.000176"
+    },
+    {
+        "type": "message",
+        "user": "U07RJG7A9",
+        "text": "Made it here.",
+        "ts": "1437213997.000177"
+    },
+    {
+        "user": "U07RJ9Y4U",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9Y4U|justina> has joined the channel",
+        "ts": "1437214009.000178"
+    },
+    {
+        "type": "message",
+        "user": "U07RJG7A9",
+        "text": "anyone else?",
+        "ts": "1437214011.000179"
+    },
+    {
+        "user": "U07RJGSRK",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJGSRK|jamesk> has joined the channel",
+        "ts": "1437214048.000180"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "Whoop!",
+        "ts": "1437214206.000181"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "iiissshhhhh",
+        "ts": "1437214228.000182"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "<https:\/\/hackpad.com\/DataKind-UK-July-DataDive-2015-rrhiXtLhj1W>",
+        "ts": "1437214284.000183"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "this is the link to Hackpad, just in case\u2026.",
+        "ts": "1437214306.000184"
+    },
+    {
+        "user": "U07RJHD61",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJHD61|brianspurling> has joined the channel",
+        "ts": "1437214448.000185"
+    },
+    {
+        "user": "U07RJD5JM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJD5JM|matt15> has joined the channel",
+        "ts": "1437214460.000186"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "here",
+        "ts": "1437214551.000187"
+    },
+    {
+        "user": "U07RJ9G5U",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9G5U|pieter> has joined the channel",
+        "ts": "1437214591.000188"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "anybody there? :simple_smile:",
+        "ts": "1437214744.000189"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "here",
+        "ts": "1437214812.000190"
+    },
+    {
+        "type": "message",
+        "user": "U07RJG7A9",
+        "text": "Yeah I'm here",
+        "ts": "1437214870.000191"
+    },
+    {
+        "user": "U07RJCV44",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJCV44|peternolan> has joined the channel",
+        "ts": "1437215579.000192"
+    },
+    {
+        "type": "message",
+        "user": "U07RJCV44",
+        "text": "Hello!",
+        "ts": "1437215590.000193"
+    },
+    {
+        "type": "message",
+        "user": "U07RJG7A9",
+        "text": "Is anyone working on a way (script?) to load the source data in in a more structured way?",
+        "ts": "1437216144.000194"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<@U07RJG7A9> I have an old version of that at <https:\/\/github.com\/DataKind-UK\/Centrepoint\/tree\/master\/pre-dive\/Gianfranco's%20R%20prototype>",
+        "ts": "1437224589.000195"
+    },
+    {
+        "user": "U07RJDE01",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJDE01|jjsm233> has joined the channel",
+        "ts": "1437227672.000196"
+    },
+    {
+        "user": "U07RJ8LD8",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ8LD8|andrea> has joined the channel",
+        "ts": "1437227710.000197"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "incoming",
+        "ts": "1437227733.000198"
+    },
+    {
+        "type": "message",
+        "user": "U07RJDE01",
+        "text": "<@U07RJ9G5U>:  These are \"District\" names that do not seem to be listed in that table\n [1] \"Barrow\"                     \"Basingstoke\"                \"Castlepoint\"                \"City of Lincoln\"            \"North Herts\"               \n [6] \"North West Leicestershire \" \"South Hampshire\"            \"West Norfolk\"               \"Worcester City\"             \"Wychaven\"",
+        "ts": "1437227734.000199"
+    },
+    {
+        "type": "message",
+        "user": "U07RJDE01",
+        "text": "Part of the problem may be that some of them are two words (checking that now)",
+        "ts": "1437227752.000200"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "Basingstoke = Basingstoke and Deane",
+        "ts": "1437227968.000201"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "barrow = Barrow-in-Furness",
+        "ts": "1437228068.000202"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "castlepoint = Castle Point",
+        "ts": "1437228079.000203"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "city of lincoln = Lincoln",
+        "ts": "1437228094.000204"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "north  Herts = North Hertfordshire",
+        "ts": "1437228122.000205"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "North West Leicestershire  = North West Leicestershire   (a \u201ct\u201d missing)",
+        "ts": "1437228157.000206"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "South Hampshire = Hampshire",
+        "ts": "1437228158.000207"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "West Norfolk = King's Lynn &amp; West Norfolk",
+        "ts": "1437228214.000208"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "Worcester City = Worcestershire County",
+        "ts": "1437228274.000209"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "Wychaven = Wychavon",
+        "ts": "1437228312.000210"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "all new reference geography files are available; in the previous CSV version the _la\\_name_ column apparently was not quoted and reading the file could fail",
+        "ts": "1437232410.000211"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "<!channel>: do we have a central google drive folder? I see there\u2019s separate links in the hackpad?",
+        "ts": "1437234076.000212"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "that should be it : <https:\/\/drive.google.com\/drive\/folders\/0B3i-XvikxKzAfmxIYW96OVM5eTR5dXFUQ2hZNkxmeGRIYU51VjdkSTRzeF9ZVGVULWlLWmM>",
+        "attachments": [
+            {
+                "text": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "fallback": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "from_url": "https:\/\/drive.google.com\/drive\/folders\/0B3i-XvikxKzAfmxIYW96OVM5eTR5dXFUQ2hZNkxmeGRIYU51VjdkSTRzeF9ZVGVULWlLWmM",
+                "id": 1
+            }
+        ],
+        "ts": "1437234409.000213"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "'public' one",
+        "ts": "1437234415.000215"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "... and that's the same you find in the hackpad",
+        "ts": "1437235033.000216"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<@U07RJ9G5U>: -6.6942071792343\t54.6095595740008",
+        "ts": "1437237892.000217"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9Y4U",
+        "text": "<https:\/\/docs.google.com\/document\/d\/1F-ne2I-rjwYesrV4wch7xQp3VyTaBAXMP0JCeUQFAM8\/edit>",
+        "ts": "1437237984.000218"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9Y4U",
+        "text": "This is notes about data and assumptions",
+        "ts": "1437237997.000219"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9Y4U",
+        "text": "feel free to update it",
+        "ts": "1437238005.000220"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9Y4U",
+        "text": "later we can compare our findings",
+        "ts": "1437238013.000221"
+    },
+    {
+        "user": "U07RMHXJP",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RMHXJP|kfkelvinng> has joined the channel",
+        "ts": "1437244558.000222"
+    },
+    {
+        "type": "message",
+        "user": "U07RMHXJP",
+        "text": "<http:\/\/www.nisra.gov.uk\/census\/detailedcharacteristics_stats_bulletin_3_2011.pdf>",
+        "ts": "1437244561.000223"
+    },
+    {
+        "type": "message",
+        "user": "U07RMHXJP",
+        "text": "<http:\/\/www.ninis2.nisra.gov.uk\/Download\/Census%202011_Winzip\/2011\/DC6116NI%20(a).ZIP>",
+        "ts": "1437244584.000224"
+    },
+    {
+        "type": "message",
+        "user": "U07RMHXJP",
+        "text": "well hidden link to the raw data :simple_smile:",
+        "ts": "1437244608.000225"
+    },
+    {
+        "type": "message",
+        "user": "U07RMHXJP",
+        "text": "<http:\/\/www.ninis2.nisra.gov.uk\/Download\/Census%202011_Winzip\/2011\/DC6111NI%20(a).ZIP>",
+        "ts": "1437245017.000226"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<@U07RMHXJP> unemployment NI done",
+        "ts": "1437247688.000227"
+    }
+]

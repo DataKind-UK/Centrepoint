@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U055M16T2",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U055M16T2|emmad> has joined the channel",
+        "ts": "1433585919.000002"
+    }
+]

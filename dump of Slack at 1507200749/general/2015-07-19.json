@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U07RJHD61",
+        "text": "No worries, we\u2019ve found them!",
+        "ts": "1437293689.000003"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "<@U07RJGBPX> I\u2019ll see what I can do. Keep in mind that there might be lags and the effect does not come into play for several quarters if not years. So blindly taking the last quarter might not be the best approach. I\u2019ll also run some data-mining and just look at correlations of everything with everything.",
+        "ts": "1437296302.000004"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "Is there anyone who knows a swift way to convert a shapefile for Northern Ireland and convert it into Tableau border polygons  with an order of magnitude less than than the 200.000 point id\u2019s I\u2019m getting now?",
+        "ts": "1437298923.000005"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "Moved the MERGED data into new folder called \u201cMerged\"",
+        "ts": "1437300520.000006"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "so as not to confuse with Presented_Clean in \u201cTemp data in final format\"",
+        "ts": "1437300540.000007"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "Scotland and Northern Ireland in Merged_V9_Ethnicity_Scotland_Unemployment.xls",
+        "ts": "1437300571.000008"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "<@U07RJEPT3>: again the linking problem. Could you save in csv?",
+        "ts": "1437300773.000009"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "Education merged V10",
+        "ts": "1437302532.000010"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9FEE",
+        "text": "Scotland education will be added to merged soon",
+        "ts": "1437303595.000011"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "Scotland education in V13",
+        "ts": "1437304183.000012"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "V14: with ASSESSED data",
+        "ts": "1437304986.000013"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "my email: <mailto:mwong38@gmail.com|mwong38@gmail.com>",
+        "ts": "1437310948.000014"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "mobile: 07527586104",
+        "ts": "1437310981.000015"
+    }
+]

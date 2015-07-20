@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U065QM5CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U065QM5CM|noelevans> has joined the channel",
+        "ts": "1433928193.449142"
+    }
+]

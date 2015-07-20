@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U07QCC0E9",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07QCC0E9|gaiacentrepoint> has joined the channel",
+        "ts": "1437138376.000002"
+    }
+]

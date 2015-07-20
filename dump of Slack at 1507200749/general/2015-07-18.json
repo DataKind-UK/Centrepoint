@@ -1,0 +1,276 @@
+[
+    {
+        "user": "U07RJ8LD8",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ8LD8|andrea> has joined the channel",
+        "ts": "1437213773.000004"
+    },
+    {
+        "user": "U07RJG7A9",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJG7A9|robin> has joined the channel",
+        "ts": "1437213909.000005"
+    },
+    {
+        "user": "U07RJG7RT",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJG7RT|verena> has joined the channel",
+        "ts": "1437213912.000006"
+    },
+    {
+        "type": "message",
+        "user": "U07RJG7A9",
+        "text": "Woohoo",
+        "ts": "1437213928.000007"
+    },
+    {
+        "user": "U07RJ9FEE",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9FEE|tharindi> has joined the channel",
+        "ts": "1437213937.000008"
+    },
+    {
+        "user": "U07RJGBPX",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJGBPX|adam> has joined the channel",
+        "ts": "1437213948.000009"
+    },
+    {
+        "user": "U07RJ9Y4U",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9Y4U|justina> has joined the channel",
+        "ts": "1437213951.000010"
+    },
+    {
+        "user": "U07RJDUP5",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJDUP5|esther> has joined the channel",
+        "ts": "1437213967.000011"
+    },
+    {
+        "user": "U07RJGSRK",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJGSRK|jamesk> has joined the channel",
+        "ts": "1437214031.000012"
+    },
+    {
+        "user": "U07RJD5JM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJD5JM|matt15> has joined the channel",
+        "ts": "1437214048.000013"
+    },
+    {
+        "user": "U07RJDE01",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJDE01|jjsm233> has joined the channel",
+        "ts": "1437214097.000014"
+    },
+    {
+        "user": "U07RJHD61",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJHD61|brianspurling> has joined the channel",
+        "ts": "1437214166.000015"
+    },
+    {
+        "user": "U07RJHQJ1",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJHQJ1|charlottelippiett> has joined the channel",
+        "ts": "1437214257.000016"
+    },
+    {
+        "user": "U07RJB0M8",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJB0M8|samchorlton> has joined the channel",
+        "ts": "1437214270.000017"
+    },
+    {
+        "user": "U07RJEPT3",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJEPT3|mwong> has joined the channel",
+        "ts": "1437214388.000018"
+    },
+    {
+        "user": "U07RJ9G5U",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9G5U|pieter> has joined the channel",
+        "ts": "1437214451.000019"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "testing\u2026 hello",
+        "ts": "1437214509.000020"
+    },
+    {
+        "type": "message",
+        "user": "U055PQSEW",
+        "text": "hello <@U07RJEPT3>",
+        "ts": "1437214521.000021"
+    },
+    {
+        "user": "U07RJCV44",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJCV44|peternolan> has joined the channel",
+        "ts": "1437214580.000022"
+    },
+    {
+        "user": "U07RJDLKE",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJDLKE|globalavocado> has joined the channel",
+        "ts": "1437214746.000023"
+    },
+    {
+        "type": "message",
+        "user": "U07RJDLKE",
+        "text": "Hello <@U07RJEPT3> and <@U055PQSEW>!",
+        "ts": "1437215545.000024"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "to see markdown documents formatted paste them into: <https:\/\/stackedit.io\/editor>",
+        "attachments": [
+            {
+                "text": "Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.",
+                "fallback": "Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.",
+                "from_url": "https:\/\/stackedit.io\/editor",
+                "id": 1
+            }
+        ],
+        "ts": "1437217885.000025"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "I\u2019m going to take a crack at the Census data, if anyone wants to join",
+        "ts": "1437221785.000027"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "Added Unemployment in Git and Hackpad",
+        "ts": "1437224214.000028"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "See bottom of Hackpad page",
+        "ts": "1437224221.000029"
+    },
+    {
+        "type": "message",
+        "user": "U07RJEPT3",
+        "text": "for links",
+        "ts": "1437224226.000030"
+    },
+    {
+        "user": "U07RMHXJP",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RMHXJP|kfkelvinng> has joined the channel",
+        "ts": "1437230564.000031"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<@U07RMHXJP>: <https:\/\/twitter.com\/NISRANINIS\/status\/622504895145504769>",
+        "ts": "1437252172.000032"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "are there any reliable data on spending on homelessness by district?",
+        "ts": "1437256484.000033"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9FEE",
+        "text": "Not by local council (data not complete), but will check by district",
+        "ts": "1437256937.000034"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "thanks tharindi",
+        "ts": "1437256978.000035"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9FEE",
+        "text": "<@U07RJGBPX>: you did mean by district?",
+        "ts": "1437256979.000036"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "<@U07RJ9FEE>: I mean by anything meaningful. When I say \"district\" I mean the finest grain, the ones that we have ~300+ of",
+        "ts": "1437257037.000037"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "but counties would do",
+        "ts": "1437257052.000038"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9FEE",
+        "text": "<@U07RJGBPX>: sorry, no luck there either",
+        "ts": "1437257543.000039"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "<@U07RJ9FEE>: that's a pity, it sounds like a good indicator",
+        "ts": "1437257586.000040"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "I guess we could get it under FOI but maybe not on a Sat night (;",
+        "ts": "1437257600.000041"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9FEE",
+        "text": "Yes so I've been trying to access it via <http:\/\/www.spendnetwork.com\/> API, but there's a limit. I end up with  less than 10% of the data.",
+        "attachments": [
+            {
+                "text": "Spend Network : Open Purchasing Data : Where anyone can analyse public spending and contracts. Suppliers use our data to win business, buyers use our data to save money.",
+                "fallback": "Spend Network : Open Purchasing Data : Where anyone can analyse public spending and contracts. Suppliers use our data to win business, buyers use our data to save money.",
+                "from_url": "http:\/\/www.spendnetwork.com\/",
+                "id": 1
+            }
+        ],
+        "ts": "1437257709.000042"
+    },
+    {
+        "type": "message",
+        "user": "U07RJGBPX",
+        "text": "<@U07RJEPT3> and others who relentlessly provide us with data: to give you an example of why I'm pestering you about testing and merging stuff, have a look at \"Families with children accepted as homeless and in priority need.csv\". The data there are quarterly, so it would be great if you could simply extract 2014 (or the latest year if 2014 is missing) and provide us with [ONS, 2014_data] .csv. Of course it is simple enough for us to do, but also quite distracting if we are trying to build a predictive model",
+        "ts": "1437259710.000044"
+    },
+    {
+        "type": "message",
+        "user": "U07RJHD61",
+        "text": "Morning! Where can we get the LA type and country for LAs (districts, unitaries) not included in the Centrepoint Sourced dataset? Only 129 to fill in, so could be done manually if necessary...",
+        "ts": "1437288718.000002"
+    }
+]

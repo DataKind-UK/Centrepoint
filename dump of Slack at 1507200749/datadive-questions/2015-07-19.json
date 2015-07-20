@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U07RJDLKE",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJDLKE|globalavocado> has joined the channel",
+        "ts": "1437300194.000002"
+    }
+]

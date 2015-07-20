@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U056D8TMZ",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U056D8TMZ|lvalnegri> has joined the channel",
+        "ts": "1433712147.000002"
+    }
+]
