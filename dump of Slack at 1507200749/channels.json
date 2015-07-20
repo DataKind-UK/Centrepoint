@@ -1,0 +1,242 @@
+[
+    {
+        "id": "C055KH5QG",
+        "name": "ark",
+        "created": "1433350669",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U0567APNF",
+            "U07E4AU7Q",
+            "U07JVPJ5D"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C0567BEV5",
+        "name": "centrepoint",
+        "created": "1433350721",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U055M16T2",
+            "U0567APNF",
+            "U060SGD8W",
+            "U07GWQESH",
+            "U07QCC0E9",
+            "U07QD5A0H",
+            "U07RJ8LD8",
+            "U07RJ9G5U",
+            "U07RJ9Y4U",
+            "U07RJCV44",
+            "U07RJD5JM",
+            "U07RJDE01",
+            "U07RJDLKE",
+            "U07RJG7A9",
+            "U07RJG7RT",
+            "U07RJGSRK",
+            "U07RJHD61",
+            "U07RMHXJP"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "This is the chatroom for the great team of volunteers contributing to the Centrepoint DataDive project. Read more at http:\/\/bit.ly\/centrepoint-datadive .",
+            "creator": "U07GWQESH",
+            "last_set": "1437127134"
+        }
+    },
+    {
+        "id": "C0567FE6T",
+        "name": "datadive-questions",
+        "created": "1433351203",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U0567APNF",
+            "U056D8TMZ",
+            "U07QCC0E9",
+            "U07RJ8LD8",
+            "U07RJ9G5U",
+            "U07RJ9Y4U",
+            "U07RJDLKE"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C0567APV7",
+        "name": "general",
+        "created": "1433350642",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": true,
+        "members": [
+            "U055M16T2",
+            "U055PQSEW",
+            "U055PSY30",
+            "U055YF65Q",
+            "U0567APNF",
+            "U0569GWAT",
+            "U0569UC3T",
+            "U056D8TMZ",
+            "U060SGD8W",
+            "U065QM5CM",
+            "U06K9AUBZ",
+            "U07E4AU7Q",
+            "U07GWQESH",
+            "U07JVPJ5D",
+            "U07QCC0E9",
+            "U07QD5A0H",
+            "U07RJ8LD8",
+            "U07RJ9FEE",
+            "U07RJ9G5U",
+            "U07RJ9Y4U",
+            "U07RJB0M8",
+            "U07RJCV44",
+            "U07RJD5JM",
+            "U07RJDE01",
+            "U07RJDLKE",
+            "U07RJDUP5",
+            "U07RJEPT3",
+            "U07RJG7A9",
+            "U07RJG7RT",
+            "U07RJGBPX",
+            "U07RJGSRK",
+            "U07RJHD61",
+            "U07RJHQJ1",
+            "U07RMHXJP"
+        ],
+        "topic": {
+            "value": "Company-wide announcements and work-based matters",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "This channel is for team-wide communication and announcements. All team members are in this channel.",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C055KHQLG",
+        "name": "my-help-at-home",
+        "created": "1433350730",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U0567APNF",
+            "U065QM5CM",
+            "U06K9AUBZ"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C0567AQ07",
+        "name": "random",
+        "created": "1433350642",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U055M16T2",
+            "U055PQSEW",
+            "U055PSY30",
+            "U055YF65Q",
+            "U0567APNF",
+            "U0569GWAT",
+            "U0569UC3T",
+            "U056D8TMZ",
+            "U060SGD8W",
+            "U065QM5CM",
+            "U06K9AUBZ",
+            "U07E4AU7Q",
+            "U07GWQESH",
+            "U07JVPJ5D",
+            "U07QCC0E9",
+            "U07QD5A0H",
+            "U07RJ8LD8",
+            "U07RJ9FEE",
+            "U07RJ9G5U",
+            "U07RJ9Y4U",
+            "U07RJB0M8",
+            "U07RJCV44",
+            "U07RJD5JM",
+            "U07RJDE01",
+            "U07RJDLKE",
+            "U07RJDUP5",
+            "U07RJEPT3",
+            "U07RJG7A9",
+            "U07RJG7RT",
+            "U07RJGBPX",
+            "U07RJGSRK",
+            "U07RJHD61",
+            "U07RJHQJ1",
+            "U07RMHXJP"
+        ],
+        "topic": {
+            "value": "Non-work banter and water cooler conversation",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C055KH8A8",
+        "name": "the-key",
+        "created": "1433350681",
+        "creator": "U0567APNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U0567APNF"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    }
+]

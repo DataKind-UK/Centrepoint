@@ -1,0 +1,162 @@
+[
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "Scotland unemployment at <https:\/\/drive.google.com\/open?id=0B0qBz_8LYyRwYjM3V2ZnMm1hR2s>",
+        "ts": "1437295588.000002"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "Northern Ireland unemployment at <https:\/\/drive.google.com\/open?id=0B0qBz_8LYyRwYjM3V2ZnMm1hR2s>",
+        "ts": "1437295614.000003"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<@U07RJ9Y4U>: see above!",
+        "ts": "1437295735.000004"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "sorry, guy I have a problem in the house so I have to stay here until the plumber arrive",
+        "ts": "1437296358.000005"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "I can come hopefully this afternoon",
+        "ts": "1437296393.000006"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "if there is something I can do from home just tell me",
+        "ts": "1437296529.000007"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<@U07RJ8LD8>: we're wrapping up at 12:30",
+        "ts": "1437296545.000008"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ8LD8",
+        "text": "ok so I guess I will come to say hello",
+        "ts": "1437296707.000009"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "All updated and cross-country consistent deprivation Census data added to <https:\/\/drive.google.com\/drive\/folders\/0B_1oINVHtrVqfl9mbThubF9KclhnVUdhMFBJOFkxalR1VEllOTFsVEhCbWY5c1Azak1wTFk>",
+        "attachments": [
+            {
+                "text": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "fallback": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "from_url": "https:\/\/drive.google.com\/drive\/folders\/0B_1oINVHtrVqfl9mbThubF9KclhnVUdhMFBJOFkxalR1VEllOTFsVEhCbWY5c1Azak1wTFk",
+                "id": 1
+            }
+        ],
+        "ts": "1437297515.000010"
+    },
+    {
+        "user": "U07RJDLKE",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJDLKE|globalavocado> has joined the channel",
+        "ts": "1437299341.000012"
+    },
+    {
+        "user": "U07RJG7RT",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJG7RT|verena> has joined the channel",
+        "ts": "1437299361.000013"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "PRESENTATION - please paste in your slides where indicated! <https:\/\/drive.google.com\/open?id=0B1VprF2vEGUoSXRpLW1nN1BFNzg>",
+        "ts": "1437305554.000014"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "<@U07RJ9G5U>:",
+        "ts": "1437305562.000015"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "<@U07RJDLKE>:",
+        "ts": "1437305567.000016"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "<@U07RJGBPX>:",
+        "ts": "1437305574.000017"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "<https:\/\/docs.google.com\/presentation\/d\/1LrevzCiLBroEh7WUq3ai7kiXdpCVR8tr-bDuFRKKKxQ\/edit#slide=id.p10>",
+        "ts": "1437305638.000018"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "team please remember to \"pull request\" your work to <https:\/\/github.com\/DataKind-UK\/Centrepoint> or get to me with your code and data if you can't do it yourselves!",
+        "ts": "1437307041.000019"
+    },
+    {
+        "type": "message",
+        "user": "U07RJ9G5U",
+        "text": "email:pieter.verstuyf@gmail.com",
+        "ts": "1437310632.000020"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "<!channel>:  thanks a million everybody!!!",
+        "ts": "1437311015.000021"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "my email is <mailto:giasone@mac.com|giasone@mac.com>",
+        "ts": "1437311096.000022"
+    },
+    {
+        "type": "message",
+        "user": "U07RJHD61",
+        "text": "Hearing lots of chat about \"I'm just going to finish off....\" Let's keep people informed through Slack if you're working on something so we don't all get super confused!",
+        "ts": "1437311792.000023"
+    },
+    {
+        "type": "message",
+        "user": "U07RJHD61",
+        "text": "And on that note, FYI, i'm going to integrate the \"presented clean\" and \"merged\" spreadsheet processes, finish testing them, and document - so Centrepoint can re-run easily as they improve their source data. Assuming that's ok with y'all... (@billywong9? Happy for me to integrate your merged SS with mine?)",
+        "ts": "1437312243.000024"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "<!channel>: you guys are super stars - THANK YOU so, so much for all of your unglamorous hard work this weekend. It really has made a difference to what we are trying to achieve.  #datarockstars",
+        "ts": "1437332046.000025"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "<!channel>: if you want to stay in touch - <mailto:j.mears@centrepoint.org|j.mears@centrepoint.org>",
+        "ts": "1437332084.000026"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "<!channel>: now go get some sleep!",
+        "ts": "1437332230.000027"
+    }
+]

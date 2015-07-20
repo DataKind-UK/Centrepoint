@@ -1,0 +1,23 @@
+[
+    {
+        "user": "U07RJ9Y4U",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9Y4U|justina> has joined the channel",
+        "ts": "1437214043.000002"
+    },
+    {
+        "user": "U07RJ9G5U",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ9G5U|pieter> has joined the channel",
+        "ts": "1437214604.000003"
+    },
+    {
+        "user": "U07RJ8LD8",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07RJ8LD8|andrea> has joined the channel",
+        "ts": "1437229453.000004"
+    }
+]

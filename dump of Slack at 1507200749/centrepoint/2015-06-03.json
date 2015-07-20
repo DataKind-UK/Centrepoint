@@ -1,0 +1,9 @@
+[
+    {
+        "user": "U0567APNF",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0567APNF|emma> has joined the channel",
+        "ts": "1433350721.000002"
+    }
+]

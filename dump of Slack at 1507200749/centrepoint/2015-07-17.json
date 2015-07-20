@@ -1,0 +1,1093 @@
+[
+    {
+        "user": "U07GWQESH",
+        "purpose": "This is the chatroom for the great team of volunteers contributing to the Centrepoint DataDive project. Read more at http:\/\/bit.ly\/centrepoint-datadive .",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "text": "<@U07GWQESH|giacecco> set the channel purpose: This is the chatroom for the great team of volunteers contributing to the Centrepoint DataDive project. Read more at http:\/\/bit.ly\/centrepoint-datadive .",
+        "ts": "1437127134.000002"
+    },
+    {
+        "user": "U060SGD8W",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U060SGD8W|jas> has joined the channel",
+        "ts": "1437127599.000003"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "hi Giasone",
+        "ts": "1437129805.000004"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "hey giacecco",
+        "ts": "1437130128.000005"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "Emma, you here as well?",
+        "ts": "1437130155.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0567APNF",
+        "text": "hey guys",
+        "ts": "1437130911.000007"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "she's here yes",
+        "ts": "1437130912.000008"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I need to do something a little delicate now, will be silent for a while",
+        "ts": "1437130929.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0567APNF",
+        "text": "do you mean Emma D or Emma P?",
+        "ts": "1437130939.000010"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "ah both Emmas are online actually",
+        "ts": "1437130957.000011"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "EmmaD, apologies...",
+        "ts": "1437130975.000012"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "we\u2019ll wait for you to come back giacecco",
+        "ts": "1437130996.000013"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "hey, emmad here",
+        "ts": "1437131000.000014"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "you can tell by the bear",
+        "ts": "1437131006.000015"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": ":wink:",
+        "ts": "1437131008.000016"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "giasone,  you're here?",
+        "ts": "1437131102.000017"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "y",
+        "ts": "1437131111.000018"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "just checking!",
+        "ts": "1437131124.000019"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "I'm having a look at Jesse's cleaned up file - still some things I'm not sure: did we say we'd use fin years as normal ones i.e. fin 2014 = 2013?",
+        "ts": "1437131159.000020"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "not sure...",
+        "ts": "1437131195.000021"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "you mean if financial year ends March 14",
+        "ts": "1437131205.000022"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "?",
+        "ts": "1437131208.000023"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "right",
+        "ts": "1437131210.000024"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "I guess so",
+        "ts": "1437131218.000025"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "makes sense no&gt; otherwise how the hell we gonna add those up... we'd have to redistribute it (more redis!) and it's gonna be heavy.",
+        "ts": "1437131246.000026"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "Will check with Jesse.",
+        "ts": "1437131250.000027"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "already difficult enough this way, we just need to make a note in the documentation",
+        "ts": "1437131252.000028"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "yup - trying to make the source data as unambiguous as possible",
+        "ts": "1437131277.000029"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I am back",
+        "ts": "1437131317.000030"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "that was quick",
+        "ts": "1437131325.000031"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "June14  also should be 2013",
+        "ts": "1437131330.000032"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "right",
+        "ts": "1437131336.000033"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "well those need to be clarified by Jesse; I'm making a version of the source file with some clarifications needed, we can put it on GH for jesse to go check",
+        "ts": "1437131369.000034"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "Now the latest data is in the GitHub master",
+        "ts": "1437131566.000035"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I wrote to Jesse to ask her to get in contact",
+        "ts": "1437131587.000036"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the more she can fix of what Emma's finding before tomorrow, the better",
+        "ts": "1437131602.000037"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "after which, I would start using GitHub's issues <https:\/\/github.com\/DataKind-UK\/Centrepoint\/issues> so that we have structured management of who's working on what",
+        "ts": "1437131644.000038"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "Emma how much time you got this afternoon?",
+        "ts": "1437131769.000039"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "if you can deal with Jesse, I can focus on <https:\/\/github.com\/DataKind-UK\/Centrepoint\/issues\/7>",
+        "ts": "1437131804.000040"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "ok - should I send her the file directly then? I can spare a few hours. we gotta be at L.Bridge at 6ish right?",
+        "ts": "1437132166.000041"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "I also have a few hours this pm...",
+        "ts": "1437132189.000042"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "can put the file on the G-drive otherwise. (or try to!!)",
+        "ts": "1437132231.000043"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "can you guys see this: <https:\/\/drive.google.com\/drive\/folders\/0B3i-XvikxKzAfmxIYW96OVM5eTR5dXFUQ2hZNkxmeGRIYU51VjdkSTRzeF9ZVGVULWlLWmM>",
+        "attachments": [
+            {
+                "text": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "fallback": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "from_url": "https:\/\/drive.google.com\/drive\/folders\/0B3i-XvikxKzAfmxIYW96OVM5eTR5dXFUQ2hZNkxmeGRIYU51VjdkSTRzeF9ZVGVULWlLWmM",
+                "id": 1
+            }
+        ],
+        "ts": "1437132286.000044"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "yep",
+        "ts": "1437132422.000046"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "sweet.",
+        "ts": "1437132426.000047"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "I've made a Gsheet version, lets see what Jesse says.",
+        "ts": "1437132444.000048"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "gonna get food - be back in a bit",
+        "ts": "1437132605.000049"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "GF: the R thing will not work with the new file structure then?",
+        "ts": "1437135474.000050"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "?",
+        "ts": "1437135507.000051"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "Q for giacecco",
+        "ts": "1437135535.000052"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "well gianfranco but this gets autocorected :wink:",
+        "ts": "1437135556.000053"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I'm back",
+        "ts": "1437135792.000054"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "emmad no the R thing is completely broken by the clean data files",
+        "ts": "1437135823.000055"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "dayemn.",
+        "ts": "1437135944.000056"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "but the clean files have no LA codes in them right?",
+        "ts": "1437135959.000057"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "should we not add it?",
+        "ts": "1437135964.000058"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "there are two things to do there",
+        "ts": "1437136037.000059"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "possibly now",
+        "ts": "1437136039.000060"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the first is solving <https:\/\/github.com\/DataKind-UK\/Centrepoint\/issues\/7>",
+        "ts": "1437136053.000061"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the second is checking that the spelling of the LA names is consistent with our geography, and fix it",
+        "ts": "1437136078.000062"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the third is merging the codes into the data",
+        "ts": "1437136090.000063"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I am starting working on the first now",
+        "ts": "1437136097.000064"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "I can do the latter. All we need is one official file from the census no? and vlookup it?",
+        "ts": "1437136104.000065"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "latter means second sorry",
+        "ts": "1437136116.000066"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "although kinda can be 2 in 1",
+        "ts": "1437136124.000067"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "it is a bit more complicated",
+        "ts": "1437136157.000068"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "do you have   census data for scotland? there isnt any?",
+        "ts": "1437136159.000069"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "one of the issues behind (1) is that",
+        "ts": "1437136166.000070"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the bl**dy LA codes  changed since the census",
+        "ts": "1437136182.000071"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "oh come ON",
+        "ts": "1437136189.000072"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "so for each lA we need two codes",
+        "ts": "1437136191.000073"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the census one, and the current one",
+        "ts": "1437136198.000074"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "and this just to enable cross-referencing the data with the census",
+        "ts": "1437136211.000075"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "if someone has a good idea and wants to cross reference with some other source X that was produced in year Y",
+        "ts": "1437136229.000076"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "that person will probably need to check with LA code was valid in year Y",
+        "ts": "1437136242.000077"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "anyway let me stop talking and do (1)",
+        "ts": "1437136264.000078"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "Ok so I can try and get a 3-columns file with name, LA census, LA now",
+        "ts": "1437136270.000079"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "so using current data",
+        "ts": "1437136279.000080"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "and then looking at the census match",
+        "ts": "1437136287.000081"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "(current meaning stuff published recently, or the codes you had last week: those are current no?)",
+        "ts": "1437136309.000082"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "hey you know I got that file from ONS tracking the code changes: would this not help?",
+        "ts": "1437136419.000083"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "emmad Jesse's calling you",
+        "ts": "1437136429.000084"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "where?",
+        "ts": "1437136434.000085"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "on your phone, she says she has it",
+        "ts": "1437136443.000086"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "ok - it aint ringing",
+        "ts": "1437136461.000087"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "about integrating the LA codes, please wait that I've finished (1)",
+        "ts": "1437136469.000088"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "aite",
+        "ts": "1437136479.000089"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "emmad actually Jesse says your number does not work",
+        "ts": "1437136505.000090"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "what's the best no to call you at",
+        "ts": "1437136516.000091"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "07757235216",
+        "ts": "1437136548.000092"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "not working?",
+        "ts": "1437136603.000093"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "I can skype otherwise",
+        "ts": "1437136606.000094"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "what's your skype username",
+        "ts": "1437136639.000095"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "e.w.d.",
+        "ts": "1437136675.000096"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "she's skyping you now",
+        "ts": "1437136682.000097"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "cool",
+        "ts": "1437136690.000098"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "you got that yeah? <https:\/\/geoportal.statistics.gov.uk\/geoportal\/catalog\/content\/filelist.page>",
+        "ts": "1437136698.000099"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "...according to which Argyll &amp; Bute is S12000035",
+        "ts": "1437136923.000100"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "yes that is practically my browser's homepage lately",
+        "ts": "1437136935.000101"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the problem is not that I don't know what they are, but that my code doesn't",
+        "ts": "1437136949.000102"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "Ah.",
+        "ts": "1437136977.000103"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "emmad if you're curious <https:\/\/github.com\/DataKind-UK\/Centrepoint\/commit\/4053c1e5ac62e757fcf4e31043399e8fbf494ef1>",
+        "ts": "1437137810.000104"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "five missing match were caused by different spelling of the LA names, one by the \"artificial\" Northern Ireland authority we're using for Centrepoint",
+        "ts": "1437137904.000105"
+    },
+    {
+        "user": "U07QCC0E9",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07QCC0E9|gaiacentrepoint> has joined the channel",
+        "ts": "1437138383.000106"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "hi Gaia",
+        "ts": "1437138409.000107"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "Hi!",
+        "ts": "1437138754.000108"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "I am about to go and give a fundraising presentation",
+        "ts": "1437138775.000109"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "but can be free after 4.",
+        "ts": "1437138789.000110"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "Is there anything that I can be helpful on? E.g. data cleaning?",
+        "ts": "1437138804.000111"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I believe Jesse and Emmad may be working on that already",
+        "ts": "1437139008.000112"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "correct -",
+        "ts": "1437139026.000113"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "Hi Gaia!",
+        "ts": "1437139030.000114"
+    },
+    {
+        "user": "U07QD5A0H",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07QD5A0H|jesseee> has joined the channel",
+        "ts": "1437139048.000115"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "I've created a more memorable link to the Hackpad that you may want to add to the presentation you'll make later: <http:\/\/bit.ly\/centrepoint-datadive>",
+        "ts": "1437139053.000116"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "jesseee + gaiacentrepoint please also remember to delete my comments from the Hackpad, or actually address them if you have the time",
+        "ts": "1437139097.000117"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "can't edit pitch presentation - sent on wed to emma p",
+        "ts": "1437139103.000118"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "ok not a big deal",
+        "ts": "1437139119.000119"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "cool",
+        "ts": "1437139129.000120"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "ok well I'll be at lonodn bridge from about 4",
+        "ts": "1437139176.000121"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "will try to do more hackpad - depends on whether birdie (daughter) falls back asleep -- she just woke up from 1st nightmare!",
+        "ts": "1437139179.000122"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "so if I can do anything, let me know",
+        "ts": "1437139183.000123"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "giacecco: we've changed some values in the main file, this will still need ONS codes on it so I can send it to you as an xlsx?",
+        "ts": "1437139191.000124"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "gf - for ons codes Neath in Wales I think should be Neath Port Talbot",
+        "ts": "1437139236.000125"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the ONS codes are not a problem, I am re-running my script with the corrected consolidated geography, it should be ready in one hour",
+        "ts": "1437139268.000126"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "emmad yes please send me the file",
+        "ts": "1437139281.000127"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "the github",
+        "ts": "1437139290.000128"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "\"main file\" does not mean much though :wink:",
+        "ts": "1437139291.000129"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "gaia what about?",
+        "ts": "1437139297.000130"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "so you can add them to the file we've changed? sorry main file means centrepoint-sourced",
+        "ts": "1437139303.000131"
+    },
+    {
+        "type": "message",
+        "user": "U07QCC0E9",
+        "text": "does it contain the MVP code or just the data for this weekend",
+        "ts": "1437139306.000132"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "MVP?",
+        "ts": "1437139323.000133"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "Minimum Viable Product",
+        "ts": "1437139329.000134"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "emmad yes please send through",
+        "ts": "1437139344.000135"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "ok",
+        "ts": "1437139351.000136"
+    },
+    {
+        "type": "message",
+        "user": "U055M16T2",
+        "text": "losing track of all the people talking :wink:",
+        "ts": "1437139360.000137"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "hehe",
+        "ts": "1437139372.000138"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "peter p hasnt shared mvp code yet",
+        "ts": "1437139377.000139"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "ah now I remember",
+        "ts": "1437139387.000140"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "trust me nobody would use it",
+        "ts": "1437139393.000141"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "the website is built in Meteor, it is a very specialised JavaScript framework, almost nobody will know how to put their hands into it",
+        "ts": "1437139424.000142"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "(\"website\" I mean the \"MVP\")",
+        "ts": "1437139451.000143"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "ok cool",
+        "ts": "1437140335.000144"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "i'm converting the powerpoint for the pitch into a pdf to go on the hackpad - is there anything else i should add to it apart from the 'data flow\/journey of a homelessness young person in England' diagram?",
+        "ts": "1437140520.000145"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "have you seen my request about the comments that are still in the doc?",
+        "ts": "1437140552.000146"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "if you prefer not to develop those, or simply don't have the time, please delete the comments",
+        "ts": "1437140568.000147"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "it would be nice for the Hackpad to be \"camera-ready\" ASAP",
+        "ts": "1437140581.000148"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "jas what's your status?",
+        "ts": "1437140721.000149"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "I can help...",
+        "ts": "1437140747.000150"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "but not sure where to start from",
+        "ts": "1437140761.000151"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "yes - agree. will try to address more of your comments now. not sure i can delete though, you might have to",
+        "ts": "1437141054.000152"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "i can delete, dont worry",
+        "ts": "1437141310.000153"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "have tried to address them! let me know if i've missed your point!",
+        "ts": "1437141338.000154"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "should we be putting in the hackpad somewhere our suggestion of how we think the datadive will look: 2 different models, vis etc.?",
+        "ts": "1437141699.000155"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "have uploaded the powerpoint plus some extra info onto the public google drive - that cool with everyone?",
+        "ts": "1437141974.000156"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "jas did you see the tasks labelled with your initials in the todo list? <https:\/\/docs.google.com\/a\/digitalcontraptionsimaginarium.co.uk\/document\/d\/1C4KIDocQ0OxMJ91dlMoL2LZw2KOXEVrIr-0zObMTKok\/edit?usp=sharing>",
+        "ts": "1437142112.000157"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "gotcha",
+        "ts": "1437142161.000158"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "on it...",
+        "ts": "1437142166.000159"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "about how the datadive could look, we're preparing a nicer version of <https:\/\/drive.google.com\/drive\/folders\/0B3i-XvikxKzAfkk1MmkwZWV6emU1QmlleXpGVlFCV0RBel9BNVoxdXBZUENBa3B1V1BFYVk>",
+        "attachments": [
+            {
+                "text": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "fallback": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage \u2013 free.",
+                "from_url": "https:\/\/drive.google.com\/drive\/folders\/0B3i-XvikxKzAfkk1MmkwZWV6emU1QmlleXpGVlFCV0RBel9BNVoxdXBZUENBa3B1V1BFYVk",
+                "id": 1
+            }
+        ],
+        "ts": "1437142170.000160"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "one more thing, I need to stop working for now until when we meet tonight, can you finish the diagram for me?",
+        "ts": "1437142545.000162"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "diagram?",
+        "ts": "1437142710.000163"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "Proposed workflow for the weekend",
+        "ts": "1437142735.000164"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<https:\/\/drive.google.com\/open?id=1O5ujQufqa9a7X-AmJkzRLO8xqw4bwERLvmS8PGl1PoM>",
+        "ts": "1437142747.000165"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "yes, can do\u2026",
+        "ts": "1437142784.000166"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "do you have the handwritten version of it?",
+        "ts": "1437142796.000167"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "<https:\/\/drive.google.com\/open?id=0B3i-XvikxKzAX05ZbGZUNGd6RE0>",
+        "ts": "1437142802.000168"
+    },
+    {
+        "type": "message",
+        "user": "U07GWQESH",
+        "text": "need to go sorry, see you at uSwitch",
+        "ts": "1437142844.000169"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "perfect, thanks",
+        "ts": "1437143375.000170"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "i've got to go too now - birdie woken up and ready to go!",
+        "ts": "1437143698.000171"
+    },
+    {
+        "type": "message",
+        "user": "U07QD5A0H",
+        "text": "see y'all in a bit",
+        "ts": "1437143702.000172"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "<@U07GWQESH>: <https:\/\/docs.google.com\/drawings\/d\/1LSaZjNQeXcNTxeOI_EyuuseGUEsOCHFP2tGVCj2CBLU\/edit>",
+        "ts": "1437148233.000173"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U060SGD8W|jas> shared a file: <https:\/\/datakinduk.slack.com\/files\/jas\/F07QMSK0U\/copyofproposedworkflowfortheweekendgias|Copy of Proposed workflow for the weekend (GIAS)>",
+        "file": {
+            "id": "F07QMSK0U",
+            "created": 1437148264,
+            "timestamp": 1437148264,
+            "name": "CopyofProposedworkflowfortheweekendGIAS",
+            "title": "Copy of Proposed workflow for the weekend (GIAS)",
+            "mimetype": "application\/vnd.google-apps.drawing",
+            "filetype": "gdraw",
+            "pretty_type": "GDocs Drawing",
+            "user": "U060SGD8W",
+            "editable": false,
+            "size": 374527,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url": "https:\/\/docs.google.com\/drawings\/d\/1LSaZjNQeXcNTxeOI_EyuuseGUEsOCHFP2tGVCj2CBLU\/edit?usp=drivesdk",
+            "url_private": "https:\/\/docs.google.com\/drawings\/d\/1LSaZjNQeXcNTxeOI_EyuuseGUEsOCHFP2tGVCj2CBLU\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.global.ssl.fastly.net\/272a\/img\/files\/gdoc_64.png",
+            "thumb_360": "https:\/\/slack.global.ssl.fastly.net\/272a\/img\/files\/gdoc_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/datakinduk.slack.com\/files\/jas\/F07QMSK0U\/copyofproposedworkflowfortheweekendgias",
+            "channels": [
+                "C0567BEV5"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U060SGD8W",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "<@U060SGD8W|jas>",
+        "bot_id": null,
+        "ts": "1437148265.000174"
+    },
+    {
+        "type": "message",
+        "user": "U060SGD8W",
+        "text": "<@U07GWQESH>:  I created a copy, just in case...",
+        "ts": "1437148331.000175"
+    }
+]

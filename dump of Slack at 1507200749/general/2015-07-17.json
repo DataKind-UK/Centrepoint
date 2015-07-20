@@ -1,0 +1,16 @@
+[
+    {
+        "user": "U07QCC0E9",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07QCC0E9|gaiacentrepoint> has joined the channel",
+        "ts": "1437137925.000002"
+    },
+    {
+        "user": "U07QD5A0H",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U07QD5A0H|jesseee> has joined the channel",
+        "ts": "1437138995.000003"
+    }
+]
