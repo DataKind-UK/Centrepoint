@@ -1,0 +1,38 @@
+Families with children accepted as homeless and in priority need
+Households accepted as homeless and in priority need
+Households found to be 'intentionally homeless'
+Households found to be eligible, homeless but not in priority need
+Households in Temporary Accommodation
+Households on council housing waiting lists
+Households with dependent children in temporary accommodation
+Number of children in temporary accommodation
+Possession claims issued by landlords
+Possession claims issued by Mortgage lenders
+Possession orders (outright plus suspended) made for landlords
+Possession orders (outright plus suspended) made for mortgage lenders
+Average (mean) selling price
+Average weekly council rents
+Average weekly housing association rents
+Lower quartile house price to income ratios
+Mean private rents (All properties, 12 month rolling average)
+Median full-time wages
+Median house price to income ratios
+Median private rents (All properties, 12 month rolling average)
+Median selling price
+Council homes sold through Right To Buy
+Homes owned by council
+New homes built by council (Completions)
+New homes built by council (Starts)
+New homes built by housing associations (Completions)
+New homes built by housing associations (Starts)
+New homes built by private developers (Completions)
+New homes built by private developers (Starts)
+Number of affordable homes delivered
+Total number of new homes built (Completions) 
+Total number of new homes built (Starts)
+Vacant dwellings (all)
+Housing Benefit claimants - all
+Housing Benefit claimants - council and housing association tenants
+Housing Benefit claimants - private tenants
+Population density (people per sq km)
+Working age unemployment rate (%)

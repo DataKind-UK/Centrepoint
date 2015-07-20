@@ -1,0 +1,196 @@
+Meta Data Document
+Release of underlying data
+Children Looked After by Local Authorities in England (including adoption and care leavers) - year ending 31 March 2014
+SFR 36/2014
+
+Overview
+
+This publication provides information about children looked after in England for the year ending 31 March 2014. The figures are based on data collected annually through the Children Looked After return (also known as SSDA903) which is completed each spring by all local authorities in England. Further details on which children are included in the data collection can be found in the children looked after return 2013-14 collection guide: https://www.gov.uk/government/publications/children-looked-after-return-2013-to-2014-guide.
+  
+National totals are derived by summing data provided by each LA and then applying rounding and suppression. The sum of each LA will not necessarily match National totals as a result.
+
+Regional totals are derived by summing data for each LA within that region and then applying rounding and suppression.  The sum of regional totals will not necessarily match the National total as a result.
+
+LA level data are data as returned by each LA and have been suppressed where necessary. 
+
+Rounding and suppression: To ensure that no individual can be identified, we use conventions for the rounding and suppression of very small numbers. National totals have been rounded to the nearest 100 if they exceed 1,000 and to the nearest 10 otherwise. Regional totals have been rounded to the nearest 10.
+
+For confidentiality purposes, numbers from one to five inclusive have been suppressed and replaced by a cross (x). Where any number is shown as zero (0), the original figure submitted was zero (0). It has been necessary to suppress other figures whenever it would be possible to calculate the value of a suppressed number by means of simple arithmetic. The rule applied in these circumstances has been to suppress the next smallest data item.
+
+Data usage note: In order to allow users maximum flexibility to aggregate data to meet their own purposes, LA level data has been shown to the nearest whole number.
+
+The Underlying Data Files
+File 1 Title: SFR36_CLA2014.csv (children looked after year ending 31 March 2014)
+File 2 Title: SFR36_ADM2014.csv (children who started to be looked after year ending 31 March 2014)
+File 3 Title: SFR36_CEA2014.csv (children who ceased to be looked after year ending 31 March 2014)
+File 4 Title: SFR36_ADP2014.csv (looked after children who were adopted, year ending 31 March 2014)
+File 5 Title: SFR36_FormerCareLeavers2014.csv (Children now aged 19, 20 and 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday)
+
+
+Annex A:
+
+SFR36_CLA2014.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_Mar2014: Children looked after at 31 March 2014
+CLA_2014: Children looked after during the year ending 31 March 2014
+CLA_stp2014: Children looked after during the year ending 31 March 2014 who were only looked after under a series of short term placements
+CLA_male: Mae children looked after at 31 March 2014
+CLA_female: Female children looked after at 31 March 2014
+CLA_U1: Children looked after at 31 March 2014 aged under 1 year 	
+CLA_1to4: Children looked after at 31 March 2014 aged 1 to 4 years
+CLA_5to9: Children looked after at 31 March 2014 aged 5 to 9 years 
+CLA_10to15: Children looked after at 31 March 2014 aged 10 to 15 years
+CLA_16over: Children looked after at 31 March 2014 aged 16 years and over 
+CLA_White: Children looked after at 31 March 2014 from a white ethnic background
+CLA_Mixed: Children looked after at 31 March 2014 from a mixed ethnic background
+CLA_Asian: Children looked after at 31 March 2014 from an Asian ethnic background
+CLA_Black: Children looked after at 31 March 2014 from a Black ethnic background
+CLA_EOTH: Children looked after at 31 March 2014 from any other ethnic background
+CLA_Oth: Children looked after at 31 March 2014 where ethnic background is not known 
+CLA_Fost: Children looked after at 31 March 2014 in foster placements
+CLA_Adopt: Children looked after at 31 March 2014 placed for adoption 
+CLA_Parent: Children looked after at 31 March 2014 placed with parents
+CLA_Ocom: Children looked after at 31 March 2014 placed in other placements within the community 
+CLA_Secure: Children looked after at 31 March 2014 placed in secure units, children’s homes and hostels 
+CLA_Ores: Children looked after at 31 March 2014 placed in other residential accommodation 
+CLA_RSch: Children looked after at 31 March 2014 placed in residential schools
+CLA_Miss: Children looked after at 31 March 2014 missing from their agreed placement for more than 24 hours
+CLA_OthPl: Children looked after at 31 March 2014 in other placements 
+CLA_ICO: Children looked after at 31 March 2014 under an interim care order 
+CLA_FCO: Children looked after at 31 March 2014 under a full care order 
+CLA_FrAd: Children looked after at 31 March 2014 who are freed for adoption 
+CLA_PlaceO	: Children looked after at 31 March 2014 who have a placement order 
+CLA_S20: Children looked after at 31 March 2014 under section 20 
+CLA_CPG: Children looked after at 31 March 2014 under child protection grounds 
+CLA_YJLS: Children looked after at 31 March 2014 under a youth justice legal status 
+CLA_UASC: Children looked after at 31 March 2014 who are unaccompanied asylum seekers 
+CLA_Moth: Children looked after at 31 March 2014 who are mothers 
+CLA_OwnP: Children looked after at 31 March 2014 where placement is provided by the LAs own provision 
+CLA_OthLA: Children looked after at 31 March 2014 under where placement is provided by another LA 
+CLA_OthPP: Children looked after at 31 March 2014 where placement is provided by other public provision 
+CLA_Priv: Children looked after at 31 March 2014 where placement is provided by private provision 
+CLA_Vol: Children looked after at 31 March 2014 where placement is provided by voluntary provision 
+CLA_Par: Children looked after at 31 March 2014 where placement is provided by parents 
+CLA_Nrep: Children looked after at 31 March 2014 where placement provider is not reported 
+CLA_1Pla: Children looked after at 31 March with one placement	
+CLA_2Pla: Children looked after at 31 March with two placements	
+CLA_3Pla: Children looked after at 31 March with three placements	
+CLA_P2yrs: Looked after children aged under 16 at 31 March who had been looked after continuously for at least 2.5 years who were living in the same placement for at least 2 years
+CLA_InBound: Children looked after at 31 March 2014 placed within LA boundary 
+CLA_Outbound: Children looked after at 31 March 2014 placed outside of the LA boundary 
+CLA_ExtPl: Children looked after at 31 March 2014 by in the LAs bundary by another LA 
+CLA_NetGain: Children looked after at 31 March 2014 – net gain of children by an LA
+
+
+SFR36_ADM2014.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_started2014: Children who started to be looked after during the year ending 31 March 2014
+CLA_taken2014: Children who were taken into care during the year ending 31 March 2014 
+SCLA_male: Male children who started to be looked after during the year ending 31 March 2014
+SCLA_female: Female children who started to be looked after during the year ending 31 March 2014
+SCLA_U1 : Children who started to be looked after during the year ending 31 March 2014 aged under 1 
+SCLA_1to4: Children who started to be looked after during the year ending 31 March 2014 aged 1 to 4 years 
+SCLA_5to9: Children who started to be looked after during the year ending 31 March 2014 aged 5 to 9 years 
+SCLA_10to15: Children who started to be looked after during the year ending 31 March 2014 aged 0 to 15 years 
+SCLA_16over: Children who started to be looked after during the year ending 31 March 2014 aged 16 years and over 
+SCLA_AbNeg: Children who started to be looked after during the year ending 31 March 2014 due to abuse or neglect 
+SCLA_Cdisab: Children who started to be looked after during the year ending 31 March 2014 due to the child’s disability 
+SCLA_ParIll: Children who started to be looked after during the year ending 31 March 2014 due to parental illness or disability 
+SCLA_FAcSt	: Children who started to be looked after during the year ending 31 March 2014 due to family in acute stress
+SCLA_FD: Children who started to be looked after during the year ending 31 March 2014 due to family dysfunction 
+SCLA_SUB: Children who started to be looked after during the year ending 31 March 2014 due to socially unacceptable behaviour 
+SCLA_LI: Children who started to be looked after during the year ending 31 March 2014 due to low income 
+SCLA_AbsPar: Children who started to be looked after during the year ending 31 March 2014 due to absent parenting 
+SCLA_ICO: Children who started to be looked after during the year ending 31 March 2014 under an interim care order 
+SCLA_FCO: Children who started to be looked after during the year ending 31 March 2014 under a full care order 
+SCLA_POG: Children who started to be looked after during the year ending 31 March 2014 where a placement order has been granted 
+SCLA_S20: Children who started to be looked after during the year ending 31 March 2014 under section 20 
+SCLA_UPP: Children who started to be looked after during the year ending 31 March 2014 under police protection 
+SCLA_SEPO	: Children who started to be looked after during the year ending 31 March 2014 subject to an emergency protection order 
+SCLA_UCAO: Children who started to be looked after during the year ending 31 March 2014 under a child assessment order 
+SCLA_ONCT: Children who started to be looked after during the year ending 31 March 2014 on remand or committed for trial 
+SCLA_PACE	: Children who started to be looked after during the year ending 31 March 2014 under the police and criminal evidence act 
+SCLA_SORR: Children who started to be looked after during the year ending 31 March 2014 under a supervision order with residence requirement 
+ 
+
+SFR36_CEA2014.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_cease: Children who ceased to be looked after during the year ending 31 March 2014	
+CLA_cease16: Children aged 16 who ceased to be looked after during the year ending 31 March 2014
+CLA_ceamal: Male children who ceased to be looked after during the year ending 31 March 2014
+CLA_ceafe: Female children who ceased to be looked after during the year ending 31 March 2014	
+CLA_cea1: Children who ceased to be looked after during the year ending 31 March 2014 aged under 1
+CLA_cea14:	Children who ceased to be looked after during the year ending 31 March 2014 aged 1 to 4 years 
+CLA_cea59:	Children who ceased to be looked after during the year ending 31 March 2014 aged 5 to 9 years 
+CLA_cea1015: Children who ceased to be looked after during the year ending 31 March 2014 aged 10 to 15 years 	
+CLA_cea16: Children who ceased to be looked after during the year ending 31 March 2014 aged 16 years and over 	
+CLA_ceaAdop: Children who ceased to be looked after during the year ending 31 March 2014 due to adoption - application unopposed
+CLA_ceaAdop2: Children who ceased to be looked after during the year ending 31 March 2014- consent dispensed with
+CLA_ceaDied: Children who ceased to be looked after during the year ending 31 March 2014 as they have died 
+CLA_ceataken: Children who ceased to be looked after during the year ending 31 March 2014 - care taken by another LA
+CLA_ceaPar: Children who ceased to be looked after during the year ending 31 March 2014 - returned home to live with parents or relatives
+CLA_ceaROG: Children who ceased to be looked after during the year ending 31 March 2014 - residence order granted
+CLA_ceaSpecG: Children who ceased to be looked after during the year ending 31 March 2014 - special guardianship order made to former foster carers
+CLA_ceaSpecG2: Children who ceased to be looked after during the year ending 31 March 2014 - special guardianship order made to carers other than former foster carers
+CLA_ceaIndLiv: Children who ceased to be looked after during the year ending 31 March 2014 - moved into independent living (with supportive accommodation)
+CLA_ceaIndLiv2: Children who ceased to be looked after during the year ending 31 March 2014 - moved into independent living (with no formalised support)
+CLA_cea_tran_res: Children who ceased to be looked after during the year ending 31 March 2014 - transferred to residential care funded by adult social services	
+CLA_cea_sen_cust: Children who ceased to be looked after during the year ending 31 March 2014 - sentenced to custody
+CLA_cea_OthRea: Children who ceased to be looked after during the year ending 31 March 2014 - care ceased for any other reason
+
+
+SFR36_ADP2014.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_cease: Children who ceased to be looked after during the year ending 31 March 2014
+CLA_ceaAdop: Children who ceased to be looked after during the year ending 31 March 2014 due to adoption
+
+
+File 5 Title: SFR36_FormerCareLeavers2014.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+All_aged1920&21: All children now aged 19, 20 and 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday.
+Act_HE: Number whose activity is higher education i.e. studies beyond A level
+Act_OE: Number whose activity is education other than higher education	
+Act_TE: Number whose activity is training or employment
+Act_NEET_ill: Number who are not in education, training or employment, due to illness or disability	
+Act_NEET_oth: Number who are not in education, training or employment due to other reasons
+Act_NEET_preg: Number who are not in education, training or employment due to pregnancy or parenting
+LA_Noinf: Local authority does not have information
+ChildDied: Number of children who died after leaving care
+Acc_SUIT: Total number in suitable accommodation
+Acc_P	: Number accommodated with parents or relatives 	
+Acc_CH: Number accommodated in community homes 	
+Acc_SITA: Number accommodated in semi-independent transitional accommodation 	
+Acc_SL: Number accommodated in supported lodgings
+Acc_GA: Number gone abroad
+Acc_Dep: Number deported
+Acc_OL: Number accommodated in ordinary lodgings
+Acc_ResNK: Number with residence not known
+Acc_NFA: Number with no fixed abode or homeless
+Acc_F	: Number accommodated in foyers
+Acc_IL: Number accommodated in independent living	
+Acc_EA: Number accommodated in emergency accommodation 	
+Acc_BB: Number in bed and breakfast accommodation
+Acc_Cust: Number who are in custody
+Acc_FFC: Number accommodated with former foster carers  	
+Acc_OTH: Number in other accommodation
+LA_Noinf: Local authority does not have information
+ChildDied: Number of children who died after leaving care
+
+
+
+
